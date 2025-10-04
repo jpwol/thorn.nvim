@@ -2,8 +2,8 @@
 
 A dark theme for [neovim](https://github.com/neovim/neovim). Features rich greens and subtle contrast to make a simple, _easy on the eyes_ theme.
 
-[!example 1](assets/thorn-example1)
-[!example 2](assets/thorn-example2)
+[!example 1](assets/thorn-example1.png)
+[!example 2](assets/thorn-example2.png)
 
 ### Features
 
