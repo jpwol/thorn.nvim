@@ -80,7 +80,7 @@ function M.get(c, opts)
     Function                    = { fg = c.pink },
     Identifier                  = { fg = c.lightblue },
     Italic                      = { italic = true, fg = c.fg },
-    Include                     = "Keywod",
+    Include                     = "Keyword",
     Keyword                     = { fg = c.orange, italic = opts.italic_keywords },
     Operator                    = { fg = c.red },
     PreProc                     = { fg = c.green1 },
