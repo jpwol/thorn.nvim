@@ -1,5 +1,5 @@
 local M = {}
-function M.get(c)
+function M.get(c, opts)
   -- stylua: ignore
   return {
     ["@lsp.type.boolean"]                      = "@boolean",

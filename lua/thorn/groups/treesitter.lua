@@ -1,6 +1,6 @@
 local M = {}
 
-function M.get(c)
+function M.get(c, opts)
    -- stylua: ignore 
    return {
     ["@annotation"]                 = "PreProc",
@@ -31,7 +31,7 @@ function M.get(c)
     ["@function.macro.commonlisp"]  = "@keyword",
     ["@function.method"]            = "Function",
     ["@function.method.call"]       = "@function.method",
-    ["@keyword"]                    = { fg = c.orange, italic = true },
+    ["@keyword"]                    = "Keyword",
     ["@keyword.conditional"]        = "Conditional",
     ["@keyword.coroutine"]          = "@keyword",
     ["@keyword.debug"]              = "Debug",

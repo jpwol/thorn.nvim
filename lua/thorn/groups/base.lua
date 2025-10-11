@@ -1,11 +1,11 @@
 local M = {}
 
-function M.get(c)
+function M.get(c, opts)
   -- stylua: ignore  
 	return {
     Foo                         = { bg = c.magenta2, fg = c.fg },
 
-    Comment                     = { fg = c.green, italic = true },
+    Comment                     = { fg = c.green, italic = opts.italic_comments },
     ColorColumn                 = { bg = c.statusbar },
     Conceal                     = { fg = c.statusbar },
     Cursor                      = { fg = c.bg, bg = c.fg },
@@ -80,13 +80,13 @@ function M.get(c)
     Function                    = { fg = c.pink },
     Identifier                  = { fg = c.lightblue },
     Italic                      = { italic = true, fg = c.fg },
-    Include                     = { fg = c.orange, italic = true},
-    Keyword                     = { fg = c.orange },
+    Include                     = "Keywod",
+    Keyword                     = { fg = c.orange, italic = opts.italic_keywords },
     Operator                    = { fg = c.red },
     PreProc                     = { fg = c.green1 },
     Special                     = { fg = c.green1 },
     Statement                   = { fg = c.orange },
-    String                      = { fg = c.lightgreen, italic = true }, -- left off here
+    String                      = { fg = c.lightgreen, italic = opts.italic_strings }, -- left off here
     Todo                        = { bg = c.yellow, fg = c.bg },
     Type                        = { fg = c.cyan },
     Underlined                  = { underline = true },

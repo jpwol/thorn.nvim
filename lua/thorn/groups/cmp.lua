@@ -1,6 +1,6 @@
 local M = {}
 
-function M.get(c)
+function M.get(c, opts)
   -- stylua: ignore
   local ret = {
     CmpDocumentation       = { fg = c.fg, bg = c.bg },
@@ -18,8 +18,8 @@ function M.get(c)
     CmpItemMenu            = { fg = c.green, bg = c.none },
   }
 
-  require("thorn.groups.kinds").kinds(ret, "CmpItemKind%s")
-  return ret
+	require("thorn.groups.kinds").kinds(ret, "CmpItemKind%s")
+	return ret
 end
 
 return M
