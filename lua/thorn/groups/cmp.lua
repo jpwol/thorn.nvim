@@ -18,8 +18,8 @@ function M.get(c, opts)
     CmpItemMenu            = { fg = c.green, bg = c.none },
   }
 
-	require("thorn.groups.kinds").kinds(ret, "CmpItemKind%s")
-	return ret
+  require("thorn.groups.kinds").kinds(ret, "CmpItemKind%s")
+  return ret
 end
 
 return M
