@@ -17,35 +17,35 @@ M.plugins = {
 }
 
 function M.get(name, colors, opts)
-	local mod = require("thorn.groups." .. name)
-	return mod.get(colors, opts)
+  local mod = require("thorn.groups." .. name)
+  return mod.get(colors, opts)
 end
 
 function M.setup(colors, opts)
-	local groups = {
-		base = true,
-		kinds = true,
-		semantic_tokens = true,
-		treesitter = true,
-	}
+  local groups = {
+    base = true,
+    kinds = true,
+    semantic_tokens = true,
+    treesitter = true,
+  }
 
-	for _, group in pairs(M.plugins) do
-		groups[group] = true
-	end
+  for _, group in pairs(M.plugins) do
+    groups[group] = true
+  end
 
-	local names = vim.tbl_keys(groups)
-	table.sort(names)
+  local names = vim.tbl_keys(groups)
+  table.sort(names)
 
-	local ret = {}
-	for group in pairs(groups) do
-		for k, v in pairs(M.get(group, colors, opts)) do
-			ret[k] = v
-		end
-	end
+  local ret = {}
+  for group in pairs(groups) do
+    for k, v in pairs(M.get(group, colors, opts)) do
+      ret[k] = v
+    end
+  end
 
-	opts.on_highlights(ret, colors)
+  opts.on_highlights(ret, colors)
 
-	return ret, groups
+  return ret
 end
 
 return M

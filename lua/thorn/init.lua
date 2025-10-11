@@ -19,7 +19,7 @@ M.setup = function(opts)
 end
 
 M.load = function()
-  require("thorn.highlights").generate_highlights(M.config)
+  require("thorn.highlights").set_highlights(M.config)
 end
 
 return M
