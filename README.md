@@ -28,7 +28,7 @@ A dark theme for [neovim](https://github.com/neovim/neovim). Features rich green
     "jpwol/thorn.nvim",
     lazy = false,
     priority = 1000,
-    opts = {} -- currently no opts supported
+    opts = {}
 }
 ```
 
@@ -36,10 +36,9 @@ A dark theme for [neovim](https://github.com/neovim/neovim). Features rich green
 
 ```lua
 use {
-     "jpwol/thorn.nvim",
-    -- uneeded currently as no config options exist
+    "jpwol/thorn.nvim",
     config = function()
-        require("thorn").setup()
+        require("thorn").setup({})
     end,
 }
 ```
@@ -73,5 +72,39 @@ require("lualine").setup({
 
 ---
 
-> [!note]
-> Unfortunately, thorn does not provide any configuration options yet. Stay tuned as these will be added eventually.
+_thorn_ provides a few customization options right now, as well as a way to change the color/style of any highlight group of your choosing.
+
+In your _lazy_ plugin,
+
+```lua
+return {
+    "jpwol/thorn.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {
+        style = "dark", -- currently doesn't do anything
+
+        italic_keywords = true,
+
+        italic_comments = true,
+
+        italic_strings = true,
+
+        diagnostic_text_highlight = true,
+
+        on_highlights = function(hl, palette)
+        end,
+    },
+}
+```
+
+Where `on_highlights` will be a function, and you can edit any highlight group using `hl.<Highlight Group>.<attribute> = <option>`. An example of this would be:
+
+```lua
+on_highlight = function(hl, palette)
+    hl.String.bold = true
+    hl.Function.fg = "#ffffff"
+end
+```
+
+This would be similar with _packer_, but instead of `opts = {}` you would put the contents of the table within `setup({})`.
