@@ -13,9 +13,12 @@ A dark theme for [neovim](https://github.com/neovim/neovim). Features rich green
 - Supports
   - Treesitter
   - LSP
+  - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+  - [Trouble](https://github.com/folke/trouble.nvim)
   - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
   - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 - Comes with [Lualine](https://github.com/nvim-lualine/lualine.nvim) theme built-in
+- Comes with added [Ghostty](https://github.com/ghostty-org/ghostty) theme!
 
 ### Installation
 
