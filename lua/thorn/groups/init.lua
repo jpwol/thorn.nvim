@@ -6,14 +6,13 @@ local M = {}
 M.plugins = {
   -- ["fzf-lua"]                       = "fzf",
   -- ["gitsigns.nvim"]                 = "gitsigns",
-  -- ["lazy.nvim"]                     = "lazy",
+  ["lazy.nvim"]                     = "lazy",
   ["nvim-cmp"]                      = "cmp",
   -- ["nvim-dap"]                      = "dap",
   ["nvim-tree.lua"]                 = "nvim-tree",
-  -- ["nvim-treesitter-context"]       = "treesitter-context",
   -- ["render-markdown.nvim"]          = "render-markdown",
   ["telescope.nvim"]                = "telescope",
-  -- ["trouble.nvim"]                  = "trouble",
+  ["trouble.nvim"]                  = "trouble",
 }
 
 function M.get(name, colors, opts)
