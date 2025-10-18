@@ -14,6 +14,8 @@ M.default = {
   on_highlights = function(hl, palette) end,
 }
 
+M.config = M.default
+
 M.setup = function(opts)
   M.config = vim.tbl_extend("keep", opts or {}, M.default)
 end
