@@ -41,7 +41,7 @@ function M.setup(opts)
   elseif opts.style == "light" then
     -- stylua: ignore
     return {
-      bg         = "#C2DBC7",
+      bg         = "#CDE3C8",
       fg         = "#1D4E27",
 
       number     = "#889089",
