@@ -1,7 +1,7 @@
 local M = {}
 
 M.set_highlights = function(opts)
-  local colors = require("thorn.colors")
+  local colors = require("thorn.colors").setup(opts)
   local groups = require("thorn.groups").setup(colors, opts)
 
   if vim.g.colors_name then

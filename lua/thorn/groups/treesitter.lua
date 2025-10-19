@@ -71,7 +71,7 @@ function M.get(c, opts)
     ["@none"]                       = {},
     ["@number"]                     = "Number",
     ["@number.float"]               = "Float",
-    ["@operator"]                   = { fg = c.red },
+    ["@operator"]                   = "Operator",
     ["@property"]                   = { fg = c.lightblue },
     ["@punctuation.bracket"]        = { fg = c.gray },
     ["@punctuation.delimiter"]      = { fg = c.lightblue },
@@ -91,10 +91,10 @@ function M.get(c, opts)
     ["@type.builtin"]               = { fg = c.cyan },
     ["@type.definition"]            = "Typedef",
     ["@type.qualifier"]             = "@keyword",
-    ["@variable"]                   = { fg = c.white },
+    ["@variable"]                   = { fg = c.fg },
     ["@variable.builtin"]           = { fg = c.yellow, italic = true },
     ["@variable.member"]            = { fg = c.lightblue },
-    ["@variable.parameter"]         = { fg = c.white, italic = true },
+    ["@variable.parameter"]         = { fg = c.fg, italic = true },
     ["@variable.parameter.builtin"] = { },
   }
 end

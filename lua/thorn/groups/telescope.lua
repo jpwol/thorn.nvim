@@ -5,7 +5,7 @@ function M.get(c, opts)
   return {
     TelescopeBorder         = { fg = c.lightgreen, bg = c.bg_float },
     TelescopeTitle          = { fg = c.lightgreen },
-    TelescopeNormal         = { fg = c.white, bg = c.bg_float },
+    TelescopeNormal         = { fg = c.fg, bg = c.bg_float },
     TelescopePromptBorder   = { fg = c.red, bg = c.bg_float },
     TelescopePromptTitle    = { fg = c.red, bg = c.bg_float },
     TelescopeResultsComment = { fg = c.separator },
