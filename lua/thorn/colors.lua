@@ -50,7 +50,7 @@ function M.setup(opts)
       gray       = "#444E52",
       green      = "#7FA595",
       green0     = "#6FA791",
-      green1     = "#9EBB9C",
+      green1     = "#5E800E",
       yellow     = "#BF7021",
       yellow0    = "#F7B982",
       orange     = "#BF442B",
