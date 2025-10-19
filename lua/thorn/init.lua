@@ -1,6 +1,8 @@
 local M = {}
 
 M.default = {
+  style = nil,
+
   italic_keywords = true,
 
   italic_comments = true,
@@ -15,24 +17,26 @@ M.default = {
 M.config = M.default
 
 M.setup = function(opts)
-  M.config = vim.tbl_extend("keep", opts or {}, M.default)
+  M.config = vim.tbl_extend("force", M.config, opts or {})
 end
 
 M.load = function()
   local bg = vim.o.background
-  local style_bg = M.config.style
+  local style = M.config.style
 
-  if bg ~= style_bg then
+  if bg ~= style then
     if vim.g.colors_name == "thorn" then
       M.config.style = bg
     else
-      if style_bg == nil then
+      if style == nil then
         M.config.style = bg
       else
-        M.config.style = style_bg
+        vim.o.background = style
+        M.config.style = style
       end
     end
   end
+
   require("thorn.highlights").set_highlights(M.config)
 end
 
