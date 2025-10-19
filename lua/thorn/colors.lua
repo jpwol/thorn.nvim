@@ -60,7 +60,7 @@ function M.setup(opts)
       lightgreen = "#107B6B",
       pink       = "#7D3671",
       cyan       = "#07790B",
-      cyan0      = "#07790B",
+      cyan0      = "#00996D",
       red        = "#971015",
       red0       = "#FA5056",
       red1       = "#E89396",
