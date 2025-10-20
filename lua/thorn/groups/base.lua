@@ -5,7 +5,7 @@ function M.get(c, opts)
 	return {
     Foo                         = { bg = c.pink, fg = c.fg },
 
-    Comment                     = { fg = c.green, italic = opts.italic_comments },
+    Comment                     = { fg = c.green, italic = opts.styles.comments.italics, bold = opts.styles.comments.bold },
     ColorColumn                 = { bg = c.bg_float },
     Conceal                     = { fg = c.bg_float },
     Cursor                      = { fg = c.bg, bg = c.fg },
@@ -82,12 +82,12 @@ function M.get(c, opts)
     Identifier                  = { fg = c.lightblue },
     Italic                      = { italic = true, fg = c.fg },
     Include                     = "Keyword",
-    Keyword                     = { fg = c.orange, italic = opts.italic_keywords },
+    Keyword                     = { fg = c.orange, italic = opts.styles.keywords.italics, bold = opts.styles.keywords.bold },
     Operator                    = { fg = c.red },
     PreProc                     = { fg = c.green1 },
     Special                     = { fg = c.green1 },
     Statement                   = { fg = c.orange },
-    String                      = { fg = c.lightgreen, italic = opts.italic_strings }, -- left off here
+    String                      = { fg = c.lightgreen, italic = opts.styles.strings.italics, bold = opts.styles.strings.bold }, -- left off here
     Todo                        = { bg = c.yellow, fg = c.bg },
     Type                        = { fg = c.cyan },
     Underlined                  = { underline = true },
@@ -121,10 +121,35 @@ function M.get(c, opts)
     DiagnosticVirtualTextWarn   = { bg = c.yellow1 },
     DiagnosticVirtualTextInfo   = { fg = c.blue, bg = "NONE" },
     DiagnosticVirtualTextHint   = { bg = c.blue },
-    DiagnosticUnderlineError    = { underline = true, sp = c.red0, fg = c.bg, bg = c.red1 },
-    DiagnosticUnderlineWarn     = { underline = true, sp = c.yellow },
-    DiagnosticUnderlineInfo     = { underline = true, sp = c.cyan0 },
-    DiagnosticUnderlineHint     = { underline = true, sp = c.blue },
+
+    DiagnosticUnderlineError    = {
+      underline = opts.styles.diagnostic.underline,
+      undercurl = not opts.styles.diagnostic.underline,
+      sp = c.red0,
+      fg = opts.styles.diagnostic.error.highlight and c.bg or c.red1,
+      bg = opts.styles.diagnostic.error.highlight and c.red1 or c.none,
+    },
+    DiagnosticUnderlineWarn     = {
+      underline = opts.styles.diagnostic.underline,
+      undercurl = not opts.styles.diagnostic.underline,
+      sp = c.yellow,
+      fg = opts.styles.diagnostic.warn.highlight and c.bg or c.yellow,
+      bg = opts.styles.diagnostic.warn.highlight and c.yellow or c.none,
+    },
+    DiagnosticUnderlineInfo     = {
+      underline = opts.styles.diagnostic.underline,
+      undercurl = not opts.styles.diagnostic.underline,
+      sp = c.cyan0,
+      fg = opts.styles.diagnostic.info.highlight and c.bg or c.cyan0,
+      bg = opts.styles.diagnostic.info.highlight and c.cyan0 or c.none,
+    },
+    DiagnosticUnderlineHint     = {
+      underline = opts.styles.diagnostic.underline,
+      undercurl = not opts.styles.diagnostic.underline,
+      sp = c.blue,
+      fg = opts.styles.diagnostic.hint.highlight and c.bg or c.blue,
+      bg = opts.styles.diagnostic.hint.highlight and c.blue or c.none,
+    },
 
 
     healthError                 = { fg = c.red },

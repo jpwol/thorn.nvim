@@ -1,7 +1,7 @@
 local M = {}
 
 function M.setup(opts)
-  if opts.style == "dark" then
+  if opts.theme == "dark" then
     -- stylua: ignore
     return {
       bg         = "#152326",
@@ -52,7 +52,7 @@ function M.setup(opts)
 
       none = "NONE",
     }
-  elseif opts.style == "light" then
+  elseif opts.theme == "light" then
     -- stylua: ignore
     return {
       bg         = "#CDE3C8",

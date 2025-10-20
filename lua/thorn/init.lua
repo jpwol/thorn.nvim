@@ -1,35 +1,48 @@
 local M = {}
-
+-- stylua: ignore
 M.default = {
-  style = nil,
-  italic_keywords = true,
-  italic_comments = true,
-  italic_strings = true,
-  diagnostic_text_highlight = true,
-  transparent = false,
+  theme = nil, -- light or dark
 
-  on_highlights = function(hl, palette) end,
+  styles = {
+    keywords = { italics = true, bold = false },
+    comments = { italics = true, bold = false },
+    strings  = { italics = true, bold = false },
+
+    diagnostic = {
+      underline = true, -- if true, flat underlines will be used. Otherwise, undercurls will be used
+
+      -- true will apply the bg highlight, false applies the fg highlight
+      error = { highlight = true, },
+      hint  = { highlight = false, },
+      info  = { highlight = false, },
+      warn  = { highlight = false, },
+    },
+  },
+
+  transparent = false, -- transparent background
+
+  on_highlights = function(hl, palette) end, -- apply your own highlights
 }
 
 M.config = M.default
 
 M.setup = function(opts)
-  M.config = vim.tbl_extend("force", M.config, opts or {})
+  M.config = vim.tbl_deep_extend("force", M.config, opts or {})
 end
 
 M.load = function()
   local bg = vim.o.background
-  local style = M.config.style
+  local theme = M.config.theme
 
-  if bg ~= style then
+  if bg ~= theme then
     if vim.g.colors_name == "thorn" then
-      M.config.style = bg
+      M.config.theme = bg
     else
-      if style == nil then
-        M.config.style = bg
+      if theme == nil then
+        M.config.theme = bg
       else
-        vim.o.background = style
-        M.config.style = style
+        vim.o.background = theme
+        M.config.theme = theme
       end
     end
   end
