@@ -48,7 +48,9 @@ function M.setup(opts)
         add = "#94C68B",
         change = "#6DAAE3",
         delete = "#D8464B",
-      }
+      },
+
+      none = "NONE",
     }
   elseif opts.style == "light" then
     -- stylua: ignore
@@ -97,7 +99,9 @@ function M.setup(opts)
         add = "#6EBB30",
         change = "#218BE8",
         delete = "#FF0008",
-      }
+      },
+
+      none = "NONE",
     }
   end
 end
