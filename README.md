@@ -1,6 +1,11 @@
 # Thorn
 
-A dark and light theme for [neovim](https://github.com/neovim/neovim). Features rich greens and subtle contrast to make a simple, _easy on the eyes_ theme.
+A dark and light theme for [Neovim](https://github.com/neovim/neovim). Features rich greens and subtle contrast to make a simple, _easy on the eyes_ theme.
+
+> [!note]
+> This theme is under **ACTIVE DEVELOPMENT**. Some highlights may be tweaked occasionally, as well as support for certain features/plugins being added over time. However, the overall look and feel of the theme will remain the same.
+>
+> If you want support for a specific plugin, please open an issue and it **will** be added.
 
 ![example 1](assets/thorn-example1.png)
 ![example 2](assets/thorn-example2.png)
@@ -13,12 +18,15 @@ A dark and light theme for [neovim](https://github.com/neovim/neovim). Features 
 - Supports
   - Treesitter
   - LSP
-  - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
-  - [Trouble](https://github.com/folke/trouble.nvim)
+  - [lazy.nvim](https://github.com/folke/lazy.nvim)
+  - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+  - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+  - [trouble.nvim](https://github.com/folke/trouble.nvim)
   - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-  - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
-- Comes with [Lualine](https://github.com/nvim-lualine/lualine.nvim) theme built-in
-- Comes with added [Ghostty](https://github.com/ghostty-org/ghostty) theme!
+  - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+  - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+- Comes with added [Ghostty](https://github.com/ghostty-org/ghostty) themes!
+  - Dark and Light themes available in `extras`
 
 ### Installation
 
