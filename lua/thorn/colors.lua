@@ -80,8 +80,8 @@ function M.setup(opts)
       cursorline = "#BEDBB8",
       separator  = "#9FB4A4",
 
-      statusbar  = "#AFCFB6",
-      status_sep = "#A4BFAA",
+      statusbar  = "#C3DBBD",
+      status_sep = "#AFCBA9",
 
       bg_float   = "#B0CCAD",
 
