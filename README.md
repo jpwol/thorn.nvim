@@ -25,6 +25,7 @@ A dark and light theme for [Neovim](https://github.com/neovim/neovim). Features 
   - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
   - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
   - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+  - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 - Comes with added [Ghostty](https://github.com/ghostty-org/ghostty) themes!
   - Dark and Light themes available in `extras`
 
@@ -93,18 +94,27 @@ return {
     lazy = false,
     priority = 1000,
     opts = {
-        style = "dark", -- or light
+        theme = nil, -- light or dark
 
-        italic_keywords = true,
+        styles = {
+            keywords = { italics = true, bold = false },
+            comments = { italics = true, bold = false },
+            strings  = { italics = true, bold = false },
 
-        italic_comments = true,
+            diagnostic = {
+                underline = true, -- if true, flat underlines will be used. Otherwise, undercurls will be used
 
-        italic_strings = true,
+                -- true will apply the bg highlight, false applies the fg highlight
+                error = { highlight = true, },
+                hint  = { highlight = false, },
+                info  = { highlight = false, },
+                warn  = { highlight = false, },
+            },
+        },
 
-        diagnostic_text_highlight = true,
+        transparent = false, -- transparent background
 
-        on_highlights = function(hl, palette)
-        end,
+        on_highlights = function(hl, palette) end, -- apply your own highlights
     },
 }
 ```
