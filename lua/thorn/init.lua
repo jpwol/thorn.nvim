@@ -2,14 +2,11 @@ local M = {}
 
 M.default = {
   style = nil,
-
   italic_keywords = true,
-
   italic_comments = true,
-
   italic_strings = true,
-
   diagnostic_text_highlight = true,
+  transparent = false,
 
   on_highlights = function(hl, palette) end,
 }
