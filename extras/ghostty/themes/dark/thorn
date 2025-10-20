@@ -13,10 +13,10 @@ palette = 11=FDD9AF
 palette = 12=A7CBEA
 palette = 13=D9ADD4
 palette = 14=FFC4BB
-palette = 15=D9D3CE
+palette = 15=DBD0C6
 background = 152326
-foreground = D9D3CE
-cursor-color = D9D3CE
+foreground = DBD0C6
+cursor-color = DBD0C6
 cursor-text = 152326
 selection-background = 38524F
-selection-foreground = D9D3CE
+selection-foreground = DBD0C6
