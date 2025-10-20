@@ -69,7 +69,7 @@ function M.get(c, opts)
     WarningMsg                  = { fg = c.yellow0 },
     Whitespace                  = { fg = c.fg_gutter },
     WildMenu                    = { bg = c.bg_visual },
-    WinBar                      = "StatusLine" ,
+    WinBar                      = "StatusLine",
     WinBarNC                    = "StatusLineNC",
     Bold                        = { bold = true, fg = c.fg },
     Character                   = { fg = c.green },

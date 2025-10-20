@@ -11,6 +11,7 @@ M.plugins = {
   telescope        = true,
   trouble          = true,
   gitsigns         = true,
+  bufferline       = true,
 }
 
 function M.get(name, colors, opts)
