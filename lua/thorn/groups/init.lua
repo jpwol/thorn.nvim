@@ -4,15 +4,13 @@ local M = {}
 
 -- stylua: ignore
 M.plugins = {
-  -- ["fzf-lua"]                       = "fzf",
-  -- ["gitsigns.nvim"]                 = "gitsigns",
-  ["lazy.nvim"]                     = "lazy",
-  ["nvim-cmp"]                      = "cmp",
-  -- ["nvim-dap"]                      = "dap",
-  ["nvim-tree.lua"]                 = "nvim-tree",
-  -- ["render-markdown.nvim"]          = "render-markdown",
-  ["telescope.nvim"]                = "telescope",
-  ["trouble.nvim"]                  = "trouble",
+  lazy             = true,
+  cmp              = true,
+  nvim_tree        = true,
+  render_markdown  = false,
+  telescope        = true,
+  trouble          = true,
+  gitsigns         = true,
 }
 
 function M.get(name, colors, opts)
@@ -28,8 +26,10 @@ function M.setup(colors, opts)
     treesitter = true,
   }
 
-  for _, group in pairs(M.plugins) do
-    groups[group] = true
+  for group, bool in pairs(M.plugins) do
+    if bool then
+      groups[group] = true
+    end
   end
 
   local names = vim.tbl_keys(groups)

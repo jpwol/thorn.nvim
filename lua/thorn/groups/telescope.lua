@@ -9,7 +9,7 @@ function M.get(c, opts)
     TelescopePromptBorder   = { fg = c.red, bg = c.bg_float },
     TelescopePromptTitle    = { fg = c.red, bg = c.bg_float },
     TelescopeResultsComment = { fg = c.separator },
-    TelescopeMatching       = { fg = c.cyan, bg = c.none}
+    TelescopeMatching       = { fg = c.cyan, bg = c.none, bold = true}
   }
 end
 
