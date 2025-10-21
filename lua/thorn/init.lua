@@ -2,6 +2,7 @@ local M = {}
 -- stylua: ignore
 M.default = {
   theme = nil, -- light or dark
+  background = "warm",
 
   styles = {
     keywords = { italics = true, bold = false },

@@ -7,7 +7,7 @@ function M.get(c, opts)
 
     Comment                     = { fg = c.green, italic = opts.styles.comments.italics, bold = opts.styles.comments.bold },
     ColorColumn                 = { bg = c.bg_float },
-    Conceal                     = { fg = c.bg_float },
+    Conceal                     = { fg = c.green },
     Cursor                      = { fg = c.bg, bg = c.fg },
     lCursor                     = { fg = c.bg, bg = c.fg },
     CursorIM                    = { fg = c.bg, bg = c.fg },

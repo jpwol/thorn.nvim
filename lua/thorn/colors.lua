@@ -4,10 +4,10 @@ function M.setup(opts)
   if opts.theme == "dark" then
     -- stylua: ignore
     return {
-      bg         = "#152326",
+      bg         = opts.background == "warm" and "#152326" or "#1D282F",
       fg         = "#DBD0C6",
 
-      number     = "#234847",
+      number     = opts.background == "warm" and "#234847" or "#314654",
 
       white      = "#D9D3CE",
       gray       = "#91A4AD",
@@ -28,15 +28,15 @@ function M.setup(opts)
       red0       = "#FA5056",
       red1       = "#E89396",
 
-      cursorline = "#1D3034",
+      cursorline = opts.background == "warm" and "#1D3034" or "#21313B",
       separator  = "#0B1213",
 
-      statusbar  = "#0F1A1C",
-      status_sep = "#203336",
+      statusbar  = opts.background == "warm" and "#111F22" or "#152128",
+      status_sep = opts.background == "warm" and "#203336" or "#1A2C37",
 
-      bg_float   = "#0F1A1C",
+      bg_float   = opts.background == "warm" and "#0F1A1C" or "#1A2328",
 
-      bg_visual  = "#38524F",
+      bg_visual  = opts.background == "warm" and "#38524F" or "#223B49",
 
       diff = {
         add = "#435B55",
@@ -55,10 +55,10 @@ function M.setup(opts)
   elseif opts.theme == "light" then
     -- stylua: ignore
     return {
-      bg         = "#CDE3C8",
-      fg         = "#1D4E27",
+      bg         = opts.background == "warm" and "#CDE3C8" or "#C9E4D4",
+      fg         = "#3C6746",
 
-      number     = "#9ABDA0",
+      number     = opts.background == "warm" and "#9ABDA0" or "#99C7AC",
 
       white      = "#D9D3CE",
       gray       = "#444E52",
@@ -79,15 +79,15 @@ function M.setup(opts)
       red0       = "#FA5056",
       red1       = "#E89396",
 
-      cursorline = "#BEDBB8",
+      cursorline = opts.background == "warm" and "#BEDBB8" or "#BDDBC9",
       separator  = "#9FB4A4",
 
-      statusbar  = "#C3DBBD",
-      status_sep = "#AFCBA9",
+      statusbar  = opts.background == "warm" and "#C3DBBD" or "#C4DECE",
+      status_sep = opts.background == "warm" and "#AFCBA9" or "#B1D3BE",
 
-      bg_float   = "#B0CCAD",
+      bg_float   = opts.background == "warm" and "#B0CCAD" or "#B4D0BF",
 
-      bg_visual  = "#B4E1B2",
+      bg_visual  = opts.background == "warm" and "#B4E1B2" or "#B3E0C5",
 
       diff = {
         add = "#9CC9B0",
