@@ -1,12 +1,12 @@
 # Thorn
 
-> [!new]
+> [!note]
 > Now comes with `warm` and `cold` variants!
 > View [Configuration](#configuration) for details
 
 A dark and light theme for [Neovim](https://github.com/neovim/neovim). Features rich greens and subtle contrast to make a simple, _easy on the eyes_ theme.
 
-> [!note]
+> [!warning]
 > This theme is under **ACTIVE DEVELOPMENT**. Some highlights may be tweaked occasionally, as well as support for certain features/plugins being added over time. However, the overall look and feel of the theme will remain the same.
 >
 > If you want support for a specific plugin, please open an issue and it **will** be added.
