@@ -1,5 +1,9 @@
 # Thorn
 
+> [!new]
+> Now comes with `warm` and `cold` variants!
+> View [Configuration](#configuration) for details
+
 A dark and light theme for [Neovim](https://github.com/neovim/neovim). Features rich greens and subtle contrast to make a simple, _easy on the eyes_ theme.
 
 > [!note]
@@ -84,9 +88,9 @@ require("lualine").setup({
 
 ---
 
-_thorn_ provides a few customization options right now, as well as a way to change the color/style of any highlight group of your choosing.
+_thorn_ provides a good amount of customization options, as well as a way to change the color/style of any highlight group of your choosing.
 
-In your _lazy_ plugin,
+In your plugin setup ([lazy.nvim](https://github.com/folke/lazy.nvim) plugin structure used as reference),
 
 ```lua
 return {
@@ -95,6 +99,7 @@ return {
     priority = 1000,
     opts = {
         theme = nil, -- light or dark
+        background = "warm" -- options are 'warm' and 'cold'
 
         styles = {
             keywords = { italics = true, bold = false },
@@ -127,5 +132,3 @@ on_highlight = function(hl, palette)
     hl.Function.fg = "#ffffff"
 end
 ```
-
-This would be similar with _packer_, but instead of `opts = {}` you would put the contents of the table within `setup({})`.
