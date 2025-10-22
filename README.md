@@ -1,7 +1,7 @@
 # Thorn
 
-<img src="https://private-user-images.githubusercontent.com/91994087/503944903-0ba2109b-fb1d-4e01-9c23-44fd83cf0758.png"/>
-<img src="https://private-user-images.githubusercontent.com/91994087/503944783-a46d35f7-b7b3-4c75-b6b9-4f254b4f50c3.png"/>
+<img src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_dark_themes.png" />
+<img src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_light_themes.png" />
 
 > [!note]
 > Now comes with `warm` and `cold` variants!
