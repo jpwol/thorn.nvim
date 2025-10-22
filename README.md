@@ -1,9 +1,7 @@
 <h2 align="center">
     Thorn
-
     <img src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_dark_themes.png" />
     <img src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_light_themes.png" />
-
 </h2>
 
 ### Features
