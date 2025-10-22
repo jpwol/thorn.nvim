@@ -1,18 +1,11 @@
 # Thorn
 
+<img src="https://private-user-images.githubusercontent.com/91994087/503944903-0ba2109b-fb1d-4e01-9c23-44fd83cf0758.png"/>
+<img src="https://private-user-images.githubusercontent.com/91994087/503944783-a46d35f7-b7b3-4c75-b6b9-4f254b4f50c3.png"/>
+
 > [!note]
 > Now comes with `warm` and `cold` variants!
 > View [Configuration](#configuration) for details
-
-A dark and light theme for [Neovim](https://github.com/neovim/neovim). Features rich greens and subtle contrast to make a simple, _easy on the eyes_ theme.
-
-> [!warning]
-> This theme is under **ACTIVE DEVELOPMENT**. Some highlights may be tweaked occasionally, as well as support for certain features/plugins being added over time. However, the overall look and feel of the theme will remain the same.
->
-> If you want support for a specific plugin, please open an issue and it **will** be added.
-
-![example 1](assets/thorn-example1.png)
-![example 2](assets/thorn-example2.png)
 
 ### Features
 
@@ -32,6 +25,8 @@ A dark and light theme for [Neovim](https://github.com/neovim/neovim). Features 
   - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 - Comes with added [Ghostty](https://github.com/ghostty-org/ghostty) themes!
   - Dark and Light themes available in `extras`
+
+If you want support for a plugin, please ask for it and it **WILL** be added!
 
 ### Installation
 
@@ -98,7 +93,7 @@ return {
     lazy = false,
     priority = 1000,
     opts = {
-        theme = nil, -- light or dark
+        theme = nil, -- 'light' or 'dark' - defaults to vim.o.background if unset
         background = "warm" -- options are 'warm' and 'cold'
 
         styles = {
