@@ -9,6 +9,7 @@
 
 - Written in 100% Lua
 - **Dark** and **Light** themes available, each with a _warm_ and _cold_ background
+  - See [Configuration](#configuration) for details
 - Supports
   - Treesitter
   - LSP
