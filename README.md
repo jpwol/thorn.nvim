@@ -1,17 +1,14 @@
-# Thorn
+<h2 align="center">Thorn</h2>
 
 <img src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_dark_themes.png" />
 <img src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_light_themes.png" />
-
-> [!note]
-> Now comes with `warm` and `cold` variants!
-> View [Configuration](#configuration) for details
 
 ### Features
 
 ---
 
 - Written in 100% Lua
+- **Dark** and **Light** themes available, each with a _warm_ and _cold_ background
 - Supports
   - Treesitter
   - LSP
@@ -24,7 +21,7 @@
   - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
   - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 - Comes with added [Ghostty](https://github.com/ghostty-org/ghostty) themes!
-  - Dark and Light themes available in `extras`
+  - Dark and Light themes available in `extras`, each with a warm and cool variant
 
 If you want support for a plugin, please ask for it and it **WILL** be added!
 
