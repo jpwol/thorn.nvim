@@ -1,4 +1,6 @@
 local M = {}
+M.version = "0.5.0"
+
 -- stylua: ignore
 M.default = {
   theme = nil, -- light or dark
