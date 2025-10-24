@@ -1,5 +1,5 @@
 local M = {}
-M.version = "1.0.1"
+M.version = "1.2.0"
 
 -- stylua: ignore
 M.default = {
