@@ -22,8 +22,12 @@
   - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
   - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
   - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
-- Comes with added [Ghostty](https://github.com/ghostty-org/ghostty) themes!
-  - Dark and Light themes available in `extras`, each with a warm and cool variant
+  - [snacks.nvim](https://github.com/folke/snacks.nvim)
+- Comes with added themes for **other applications**!
+  - [Ghostty](https://github.com/ghostty-org/ghostty)
+  - [Kitty](https://github.com/kovidgoyal/kitty)
+  - [Alacritty](https://github.com/alacritty/alacritty)
+  - [Btop](https://github.com/aristocratos/btop)
 
 If you want support for a plugin, please ask for it and it **WILL** be added!
 
