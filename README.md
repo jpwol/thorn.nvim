@@ -1,12 +1,31 @@
 <h1 align="center">
-    Thorn
-    <img src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_dark_themes.png" />
-    <img src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_light_themes.png" />
+    Thorn<br/>
+    <img height="150" src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_logo.png" />
 </h1>
+<div align="center">
+    <img src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_themes.png" />
+</div>
 
-### Features
+## Previews
 
----
+<details>
+    <summary> Dark Warm </summary>
+    <img src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_dark_warm.png" />
+</details>
+<details>
+    <summary> Dark Cold </summary>
+    <img src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_dark_cold.png" />
+</details>
+<details>
+    <summary> Light Warm </summary>
+    <img src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_light_warm.png" />
+</details>
+<details>
+    <summary> Light Cold </summary>
+    <img src="https://raw.githubusercontent.com/jpwol/thorn.nvim/main/.github/images/thorn_light_cold.png" />
+</details>
+
+## Features
 
 - Written in 100% Lua
 - **Dark** and **Light** themes available, each with a _warm_ and _cold_ background
@@ -31,9 +50,7 @@
 
 If you want support for a plugin, please ask for it and it **WILL** be added!
 
-### Installation
-
----
+## Installation
 
 [lazy.nvim](https://github.com/folke/lazy.nvim)
 
@@ -63,9 +80,7 @@ use {
 Plug 'jpwol/thorn.nvim', { 'branch': 'main' }
 ```
 
-### Usage
-
----
+## Usage
 
 ```lua
 -- after plugin is loaded by your manager
@@ -82,9 +97,7 @@ require("lualine").setup({
 })
 ```
 
-### Configuration
-
----
+## Configuration
 
 _thorn_ provides a good amount of customization options, as well as a way to change the color/style of any highlight group of your choosing.
 
