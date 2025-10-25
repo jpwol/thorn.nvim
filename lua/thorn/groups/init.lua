@@ -12,6 +12,7 @@ M.plugins = {
   trouble          = true,
   gitsigns         = true,
   bufferline       = true,
+  snacks           = true,
 }
 
 function M.get(name, colors, opts)
