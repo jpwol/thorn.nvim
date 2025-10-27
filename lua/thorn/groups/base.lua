@@ -114,13 +114,13 @@ function M.get(c, opts)
 
     DiagnosticError             = { fg = c.red0 },
     DiagnosticWarn              = { fg = c.yellow },
-    DiagnosticInfo              = { fg = c.cyan0 },
+    DiagnosticInfo              = { fg = c.green1 },
     DiagnosticHint              = { fg = c.blue },
     DiagnosticUnnecessary       = { fg = c.green },
-    DiagnosticVirtualTextError  = { fg = c.red0, bg = "NONE" },
-    DiagnosticVirtualTextWarn   = { bg = c.yellow1 },
-    DiagnosticVirtualTextInfo   = { fg = c.blue, bg = "NONE" },
-    DiagnosticVirtualTextHint   = { bg = c.blue },
+    DiagnosticVirtualTextError  = { fg = c.red0 },
+    DiagnosticVirtualTextWarn   = { fg = c.yellow },
+    DiagnosticVirtualTextInfo   = { fg = c.green1 },
+    DiagnosticVirtualTextHint   = { fg = c.blue },
 
     DiagnosticUnderlineError    = {
       underline = opts.styles.diagnostic.underline,
