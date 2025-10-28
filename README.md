@@ -138,7 +138,7 @@ return {
 Where `on_highlights` will be a function, and you can edit any highlight group using `hl.<Highlight Group>.<attribute> = <option>`. An example of this would be:
 
 ```lua
-on_highlight = function(hl, palette)
+on_highlights = function(hl, palette)
     hl.String.bold = true
     hl.Function.fg = "#ffffff"
 end
