@@ -107,9 +107,9 @@ function M.get(c, opts)
     LspReferenceWrite           = { bg = c.bg_visual, bold = true },
     LspSignatureActiveParameter = { bg = c.bg_visual, bold = true },
     LspCodeLens                 = { fg = c.green },
-    LspInlayHint                = { bg = c.green0, fg = c.fg },
-    LspInfoBorder               = { fg = c.lightgreen, bg = c.statusbar },
-    ComplHint                   = { fg = c.bg },
+    LspInlayHint                = { fg = c.number, bg = c.none, italic = true },
+    LspInfoBorder               = { fg = c.lightgreen, bg = c.bg_float },
+    ComplHint                   = { fg = c.bg_float },
 
 
     DiagnosticError             = { fg = c.red0 },
