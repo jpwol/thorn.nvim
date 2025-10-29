@@ -1,4 +1,4 @@
-name: release-please
+name: Release Please
 
 on:
   push:
@@ -13,8 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v4
+        id: release
         with:
-          release-type: simple
-          manifest-file: .release-please-manifest.json
-          config-file: .release-please-config.json
           token: ${{ secrets.GITHUB_TOKEN }}
+          release-type: simple
