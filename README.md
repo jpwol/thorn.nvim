@@ -42,6 +42,7 @@
   - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
   - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
   - [snacks.nvim](https://github.com/folke/snacks.nvim)
+  - [render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim)
 - Comes with added themes for **other applications**!
   - [Ghostty](https://github.com/ghostty-org/ghostty)
   - [Kitty](https://github.com/kovidgoyal/kitty)
