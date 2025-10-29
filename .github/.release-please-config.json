@@ -1,0 +1,17 @@
+{
+  "packages": {
+    ".": {
+      "release-type": "simple",
+      "bump-minor-pre-major": true,
+      "changelog-path": "CHANGELOG.md",
+      "extra-files": [
+        {
+          "type": "plain-text",
+          "path": "lua/thorn/init.lua",
+          "search": "M.version = \".*\"",
+          "replace": "M.version = \"${version}\""
+        }
+      ]
+    }
+  }
+}
