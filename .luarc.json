@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "diagnostics": {
+    "disable": ["undefined-doc-name"],
+    "libraryFiles": "Opened",
+    "globals": ["vim"]
+  },
+  "workspace": {
+    "library": ["/usr/share/lua/5.3"],
+    "maxPreload": 2000,
+    "preloadFileSize": 1000
+  },
+  "runtime": {
+    "version": "Lua 5.3"
+  }
+}
