@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/jpwol/thorn.nvim/compare/v1.4.0...v1.4.1) (2025-10-29)
+
+
+### Bug Fixes
+
+* release-please ([66abbf3](https://github.com/jpwol/thorn.nvim/commit/66abbf371d833bf461aece7024d6706f697f2a97))
+
 ## [1.4.0](https://github.com/jpwol/thorn.nvim/compare/v1.3.4...v1.4.0) (2025-10-29)
 
 
