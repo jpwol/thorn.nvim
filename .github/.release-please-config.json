@@ -11,6 +11,13 @@
           "search": "M.version = \".*\"",
           "replace": "M.version = \"${version}\""
         }
+      ],
+      "changelog-types": [
+        { "type": "feat", "section": "Features", "hidden": false },
+        { "type": "fix", "section": "Fixes", "hidden": false },
+        { "type": "docs", "section": "Documentation", "hidden": true },
+        { "type": "perf", "section": "Performance Tweaks", "hidden": false },
+        { "type": "style", "section": "Changes", "hidden": true }
       ]
     }
   }
