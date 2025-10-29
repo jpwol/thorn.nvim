@@ -50,6 +50,23 @@ function M.setup(opts)
         delete = "#D8464B",
       },
 
+      hbg = {
+        "#28403c",
+        "#4b4c44",
+        "#494342",
+        "#375259",
+        "#504c5a",
+        "#4e383b",
+      },
+      hfg = {
+        "#568270",
+        "#FFD7AA",
+        "#F9ADA0",
+        "#86BFD0",
+        "#D9ADD4",
+        "#D2696C",
+      },
+
       none = "NONE",
     }
   elseif opts.theme == "light" then
@@ -99,6 +116,23 @@ function M.setup(opts)
         add = "#6EBB30",
         change = "#218BE8",
         delete = "#FF0008",
+      },
+
+      hbg = {
+        "#b5d0b6",
+        "#e2debb",
+        "#d9d4bd",
+        "#bad9ca",
+        "#d0d4cb",
+        "#cec8b4",
+      },
+      hfg = {
+        "#73A08D",
+        "#BF7021",
+        "#BF442B",
+        "#4F8FA1",
+        "#913069",
+        "#971015",
       },
 
       none = "NONE",

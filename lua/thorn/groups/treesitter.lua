@@ -2,7 +2,7 @@ local M = {}
 
 function M.get(c, opts)
    -- stylua: ignore 
-   return {
+   local ret = {
     ["@annotation"]                 = "PreProc",
     ["@attribute"]                  = "PreProc",
     ["@boolean"]                    = "Boolean",
@@ -97,6 +97,12 @@ function M.get(c, opts)
     ["@variable.parameter"]         = { fg = c.fg, italic = true },
     ["@variable.parameter.builtin"] = { },
   }
+
+  for i, cl in ipairs(c.hfg) do
+    ret["@markup.heading." .. i .. ".markdown"] = { fg = cl, bold = true }
+  end
+
+  return ret
 end
 
 return M
