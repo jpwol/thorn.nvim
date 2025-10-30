@@ -59,7 +59,7 @@ function M.setup(opts)
         "#4e383b",
       },
       hfg = {
-        "#568270",
+        "#6FA791",
         "#FFD7AA",
         "#F9ADA0",
         "#86BFD0",
