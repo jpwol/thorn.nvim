@@ -76,7 +76,7 @@ function M.get(c, opts)
     Character                   = { fg = c.green },
     Constant                    = { fg = c.yellow },
     Debug                       = { fg = c.orange },
-    Delimiter                   =  "Special",
+    Delimiter                   = { fg = c.lightblue },
     Error                       = { fg = c.red0 },
     Function                    = { fg = c.pink },
     Identifier                  = { fg = c.lightblue },
