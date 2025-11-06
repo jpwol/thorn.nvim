@@ -5,7 +5,7 @@ function M.get(c, opts)
 	return {
     Foo                         = { bg = c.pink, fg = c.fg },
 
-    Comment                     = { fg = c.green, italic = opts.styles.comments.italics, bold = opts.styles.comments.bold },
+    Comment                     = { fg = c.green, italic = opts.styles.comments.italic, bold = opts.styles.comments.bold },
     ColorColumn                 = { bg = c.bg_float },
     Conceal                     = { fg = c.green },
     Cursor                      = { fg = c.bg, bg = c.fg },
@@ -82,12 +82,12 @@ function M.get(c, opts)
     Identifier                  = { fg = c.lightblue },
     Italic                      = { italic = true, fg = c.fg },
     Include                     = "Keyword",
-    Keyword                     = { fg = c.orange, italic = opts.styles.keywords.italics, bold = opts.styles.keywords.bold },
+    Keyword                     = { fg = c.orange, italic = opts.styles.keywords.italic, bold = opts.styles.keywords.bold },
     Operator                    = { fg = c.red },
     PreProc                     = { fg = c.green1 },
     Special                     = { fg = c.green1 },
     Statement                   = { fg = c.orange },
-    String                      = { fg = c.lightgreen, italic = opts.styles.strings.italics, bold = opts.styles.strings.bold }, -- left off here
+    String                      = { fg = c.lightgreen, italic = opts.styles.strings.italic, bold = opts.styles.strings.bold }, -- left off here
     Todo                        = { bg = c.yellow, fg = c.bg },
     Type                        = { fg = c.cyan },
     Underlined                  = { underline = true },
