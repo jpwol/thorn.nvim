@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/jpwol/thorn.nvim/compare/v1.4.3...v2.0.0) (2025-11-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* changed opt "italics" to "italic"
+
+### Features
+
+* added terminal colors ([a4d0f01](https://github.com/jpwol/thorn.nvim/commit/a4d0f010aa244cbd44d9dd74854e1535e6142819))
+
+
+### Bug Fixes
+
+* changed opt "italics" to "italic" ([187bce1](https://github.com/jpwol/thorn.nvim/commit/187bce158c2cdac16d17fe2dc38f9f85d9a4652b))
+
 ## [1.4.3](https://github.com/jpwol/thorn.nvim/compare/v1.4.2...v1.4.3) (2025-10-29)
 
 
