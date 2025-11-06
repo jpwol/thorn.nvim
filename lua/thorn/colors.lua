@@ -50,6 +50,25 @@ function M.setup(opts)
         delete = "#D8464B",
       },
 
+      terminal = {
+        black = opts.background == "warm" and "#152326" or "#1D282F",
+        black_bright = "#568270",
+        white = "#91A4AD",
+        white_bright = "#DBD0C6",
+        red = "#FF5B61",
+        red_bright = "#D48588",
+        green = "#9DC6A9",
+        green_bright = "#95C2A1",
+        yellow = "#FFCF99",
+        yellow_bright = "#FDD9AF",
+        blue = "#86BFD2",
+        blue_bright = "#A7CBEA",
+        magenta = "#D59CCE",
+        magenta_bright = "#D9ADD4",
+        cyan = "#F9ADA1",
+        cyan_bright = "#FFC4BB",
+      },
+
       hbg = {
         "#28403c",
         "#4b4c44",
@@ -116,6 +135,25 @@ function M.setup(opts)
         add = "#6EBB30",
         change = "#218BE8",
         delete = "#FF0008",
+      },
+
+      terminal = {
+        black = opts.background == "warm" and "#CDE3C8" or "#C9E4D4",
+        black_bright = "#73A08D",
+        white = "#7A8386",
+        white_bright = "#1D4E27",
+        red = "#971015",
+        red_bright = "#971015",
+        green = "#5E800E",
+        green_bright = "#5E800E",
+        yellow = "#BF7021",
+        yellow_bright = "#BF7021",
+        blue = "#4F8FA1",
+        blue_bright = "#4F8FA1",
+        magenta = "#913069",
+        magenta_bright = "#913069",
+        cyan = "#BF442B",
+        cyan_bright = "#BF442B",
       },
 
       hbg = {
