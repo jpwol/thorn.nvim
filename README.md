@@ -111,7 +111,7 @@ return {
     priority = 1000,
     opts = {
         theme = nil, -- 'light' or 'dark' - defaults to vim.o.background if unset
-        background = "warm" -- options are 'warm' and 'cold'
+        background = "warm", -- options are 'warm' and 'cold'
 
         styles = {
             keywords = { italics = true, bold = false },
