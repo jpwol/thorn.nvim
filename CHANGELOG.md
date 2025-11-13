@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.0.1](https://github.com/jpwol/thorn.nvim/compare/v2.0.0...v2.0.1) (2025-11-13)
+
+
+### Bug Fixes
+
+* **alacritty:** changed cyan color to actually be cyan ([9b818e6](https://github.com/jpwol/thorn.nvim/commit/9b818e6c0f6b559f2ddf51fba34a002cd06b568b))
+* **ghostty:** changed cyan color to actually be cyan ([a8a3217](https://github.com/jpwol/thorn.nvim/commit/a8a3217c687ff014c14429a981fcd8e0aeab0734))
+* **kitty:** changed cyan color to acutally be cyan ([146b4bf](https://github.com/jpwol/thorn.nvim/commit/146b4bf564381e12435f6b0d5660234be3ddf0a3))
+
 ## [2.0.0](https://github.com/jpwol/thorn.nvim/compare/v1.4.3...v2.0.0) (2025-11-06)
 
 
