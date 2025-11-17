@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0](https://github.com/jpwol/thorn.nvim/compare/v2.0.1...v2.1.0) (2025-11-17)
+
+
+### Features
+
+* added ability to choose any variant at any time ([c633eb5](https://github.com/jpwol/thorn.nvim/commit/c633eb565fdd659d7145ef9e7eb0d57e4649fbcf))
+* added dynamic lualine adaption to variant choosing ([056ed65](https://github.com/jpwol/thorn.nvim/commit/056ed65a7ca06400a3a26c1e77ad2962d6c14af1))
+
 ## [2.0.1](https://github.com/jpwol/thorn.nvim/compare/v2.0.0...v2.0.1) (2025-11-13)
 
 
