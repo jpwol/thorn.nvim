@@ -3,7 +3,7 @@ M.version = "2.1.0" -- x-release-please-version
 
 -- stylua: ignore
 M.default = {
-  theme = nil, -- 'light' or 'dark' - defaults to vim.o.background if unset
+  theme = vim.o.background, -- 'light' or 'dark' - defaults to vim.o.background if unset
   background = "warm", -- options are 'warm' and 'cold'
 
   transparent = false, -- transparent background
@@ -28,10 +28,10 @@ M.default = {
   on_highlights = function(hl, palette) end, -- apply your own highlights
 }
 
-M.config = M.default
+M.config = nil
 
 M.setup = function(opts)
-  M.config = vim.tbl_deep_extend("force", M.config, opts or {})
+  M.config = vim.tbl_deep_extend("force", {}, M.default, opts or {})
 end
 
 M.load = function(opts)
