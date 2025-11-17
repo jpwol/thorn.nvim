@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/jpwol/thorn.nvim/compare/v2.1.0...v2.1.1) (2025-11-17)
+
+
+### Bug Fixes
+
+* user couldn't override vim.o.background in setup ([224bbcf](https://github.com/jpwol/thorn.nvim/commit/224bbcfd2978c445a875249f7e48753e3272c13b))
+
 ## [2.1.0](https://github.com/jpwol/thorn.nvim/compare/v2.0.1...v2.1.0) (2025-11-17)
 
 
