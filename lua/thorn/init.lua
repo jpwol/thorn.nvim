@@ -34,24 +34,20 @@ M.setup = function(opts)
   M.config = vim.tbl_deep_extend("force", M.config, opts or {})
 end
 
-M.load = function()
+M.load = function(opts)
+  opts = opts and vim.tbl_deep_extend("force", {}, M.config, opts) or M.config
   local bg = vim.o.background
-  local theme = M.config.theme
+  local theme = opts.theme
 
   if bg ~= theme then
-    if vim.g.colors_name == "thorn" then
-      M.config.theme = bg
+    if vim.g.colors_name == "thorn-" .. opts.theme .. "-" .. opts.background then
+      opts.theme = bg
     else
-      if theme == nil then
-        M.config.theme = bg
-      else
-        vim.o.background = theme
-        M.config.theme = theme
-      end
+      vim.o.background = theme
     end
   end
 
-  require("thorn.highlights").set_highlights(M.config)
+  require("thorn.highlights").set_highlights(opts)
 end
 
 return M

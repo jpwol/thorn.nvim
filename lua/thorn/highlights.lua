@@ -8,7 +8,8 @@ M.set_highlights = function(opts)
     vim.cmd([[highlight clear]])
   end
 
-  vim.g.colors_name = "thorn"
+  vim.g.colors_name = "thorn-" .. vim.o.background .. "-" .. opts.background
+
   vim.o.termguicolors = true
 
   for group, hl in pairs(groups) do
