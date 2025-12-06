@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.2](https://github.com/jpwol/thorn.nvim/compare/v2.1.1...v2.1.2) (2025-12-06)
+
+
+### Bug Fixes
+
+* **#16:** add `[@markup](https://github.com/markup).quote` group ([#17](https://github.com/jpwol/thorn.nvim/issues/17)) ([32d7088](https://github.com/jpwol/thorn.nvim/commit/32d708808ea21bb6723e80d8cb932393beb1ec41))
+* **theme:** fixed crash if "opts" not set ([9094aa9](https://github.com/jpwol/thorn.nvim/commit/9094aa900c90c14a2cdaa8963fdbca039470b3d8))
+
 ## [2.1.1](https://github.com/jpwol/thorn.nvim/compare/v2.1.0...v2.1.1) (2025-11-17)
 
 
