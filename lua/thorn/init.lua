@@ -35,7 +35,7 @@ M.setup = function(opts)
 end
 
 M.load = function(opts)
-  opts = opts and vim.tbl_deep_extend("force", {}, M.config, opts) or M.config
+  opts = opts and vim.tbl_deep_extend("force", {}, M.config, opts or {}) or M.config
   local bg = vim.o.background
   local theme = opts.theme
 
@@ -49,5 +49,13 @@ M.load = function(opts)
 
   require("thorn.highlights").set_highlights(opts)
 end
+
+setmetatable(M, {
+  __index = function(_, k)
+    if k == "config" then
+      return M.default
+    end
+  end,
+})
 
 return M
