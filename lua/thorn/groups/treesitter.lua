@@ -60,6 +60,7 @@ function M.get(c, opts)
     ["@markup.list.markdown"]       = { fg = c.orange, bold = true },
     ["@markup.list.unchecked"]      = { fg = c.blue },
     ["@markup.math"]                = "Special",
+    ["@markup.quote"]               = { fg = c.gray, italic = true },
     ["@markup.raw"]                 = "String",
     ["@markup.raw.markdown_inline"] = { bg = c.bg_visual, fg = c.green1},
     ["@markup.strikethrough"]       = { strikethrough = true },
