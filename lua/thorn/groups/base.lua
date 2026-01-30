@@ -73,7 +73,7 @@ function M.get(c, opts)
     WinBarNC                    = "StatusLineNC",
 
     Bold                        = { bold = true, fg = c.fg },
-    Character                   = { fg = c.green },
+    Character                   = { fg = c.lightgreen },
     Constant                    = { fg = c.yellow },
     Debug                       = { fg = c.orange },
     Delimiter                   = { fg = c.lightblue },
