@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.3](https://github.com/jpwol/thorn.nvim/compare/v2.1.2...v2.1.3) (2026-01-30)
+
+
+### Bug Fixes
+
+* **base:** characters now match string color to stand out more ([0c056ac](https://github.com/jpwol/thorn.nvim/commit/0c056acda8a7d9e25544e27506d4d9fad9fd44fd))
+
 ## [2.1.2](https://github.com/jpwol/thorn.nvim/compare/v2.1.1...v2.1.2) (2025-12-06)
 
 
