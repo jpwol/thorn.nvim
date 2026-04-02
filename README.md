@@ -64,6 +64,7 @@ A lot of dark themes are only dark in the sense of their backgrounds. For those 
   - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
   - [trouble.nvim](https://github.com/folke/trouble.nvim)
   - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+  - [blink.cmp](https://github.com/saghen/blink.cmp)
   - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
   - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
   - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
