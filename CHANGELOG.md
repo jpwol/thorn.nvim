@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.2.0](https://github.com/jpwol/thorn.nvim/compare/v2.1.3...v2.2.0) (2026-04-02)
+
+
+### Features
+
+* **plugin:** added support for blink.cmp ([c6038f2](https://github.com/jpwol/thorn.nvim/commit/c6038f28f5276b0258a829ce20966fd471fa7a49))
+
+
+### Bug Fixes
+
+* **base:** updated pmenu colors to better support completion ([adc369b](https://github.com/jpwol/thorn.nvim/commit/adc369ba0ae6e2d126e226ae9aa483648721e42c))
+* **cmp:** fixed color choice for nvim-cmp ([728eee6](https://github.com/jpwol/thorn.nvim/commit/728eee69a5ea794556577dd213fe9e2e10069c21))
+
 ## [2.1.3](https://github.com/jpwol/thorn.nvim/compare/v2.1.2...v2.1.3) (2026-01-30)
 
 
