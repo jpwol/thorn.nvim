@@ -54,7 +54,7 @@ function M.get(c, opts)
     Search                      = { bg = c.lightgreen, fg = c.bg },
     IncSearch                   = { bg = c.orange, fg = c.bg },
     CurSearch                   =  "IncSearch",
-    SpecialKey                  = { fg = c.separator },
+    SpecialKey                  = { fg = c.green0 },
     SpellBad                    = { sp = c.red, underline = true },
     SpellCap                    = { sp = c.yellow0, underline = true },
     SpellLocal                  = { sp = c.yellow0, underline = true },
