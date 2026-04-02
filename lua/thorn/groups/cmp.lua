@@ -14,7 +14,7 @@ function M.get(c, opts)
     CmpItemKindCopilot     = { fg = c.cyan, bg = c.none },
     CmpItemKindSupermaven  = { fg = c.cyan, bg = c.none },
     CmpItemKindDefault     = { fg = c.fg, bg = c.none },
-    CmpItemKindTabNine     = { fg = c.teal, bg = c.none },
+    CmpItemKindTabNine     = { fg = c.cyan, bg = c.none },
     CmpItemMenu            = { fg = c.green, bg = c.none },
   }
 
