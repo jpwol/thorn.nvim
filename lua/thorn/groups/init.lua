@@ -13,6 +13,7 @@ M.plugins = {
   gitsigns         = true,
   bufferline       = true,
   snacks           = true,
+  blink            = true,
 }
 
 function M.get(name, colors, opts)
