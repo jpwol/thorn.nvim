@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.1](https://github.com/jpwol/thorn.nvim/compare/v2.2.0...v2.2.1) (2026-04-02)
+
+
+### Bug Fixes
+
+* **base:** updated SpecialKey for ui2 ([b982961](https://github.com/jpwol/thorn.nvim/commit/b98296181537f565f618f36481746664b7623109))
+
 ## [2.2.0](https://github.com/jpwol/thorn.nvim/compare/v2.1.3...v2.2.0) (2026-04-02)
 
 
