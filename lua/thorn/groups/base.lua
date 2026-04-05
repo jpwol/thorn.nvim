@@ -43,6 +43,7 @@ function M.get(c, opts)
     FloatBorder                 = { fg = c.lightgreen, bg = c.bg_float },
     FloatTitle                  = { fg = c.lightgreen, bg = c.bg_float },
     Pmenu                       = { bg = c.bg_float, fg = c.fg },
+    PmenuBorder                 = { fg = c.lightgreen, bg = c.bg_float },
     PmenuMatch                  = { bg = c.bg_float, fg = c.cyan, bold = true },
     PmenuSel                    = { bg = c.cursorline },
     PmenuMatchSel               = { bg = c.cursorline },

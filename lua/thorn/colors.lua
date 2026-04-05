@@ -3,6 +3,7 @@ local M = {}
 function M.setup(opts)
   if opts.theme == "dark" then
     -- stylua: ignore
+    ---@type thorn.Palette
     return {
       bg         = opts.background == "warm" and "#152326" or "#1D282F",
       fg         = "#DBD0C6",
