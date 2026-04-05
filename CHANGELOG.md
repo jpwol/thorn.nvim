@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.3.0](https://github.com/jpwol/thorn.nvim/compare/v2.2.1...v2.3.0) (2026-04-05)
+
+
+### Features
+
+* **docs:** added annotations! ([155677e](https://github.com/jpwol/thorn.nvim/commit/155677ee74e26759088ee4e80b3e677434770526))
+
+
+### Bug Fixes
+
+* **base:** updated certain keyword highlights ([7888374](https://github.com/jpwol/thorn.nvim/commit/7888374960758b0c254033530a9ba2d14f5ab0bc))
+* **blink:** updated border highlight ([310e817](https://github.com/jpwol/thorn.nvim/commit/310e817c8cafd528fccffd7d5e8f606ce0547d44))
+
 ## [2.2.1](https://github.com/jpwol/thorn.nvim/compare/v2.2.0...v2.2.1) (2026-04-02)
 
 
