@@ -1,7 +1,9 @@
+
 local M = {}
 M.version = "2.2.1" -- x-release-please-version
 
 -- stylua: ignore
+--- @type thorn.Config
 M.default = {
   theme = vim.o.background, -- 'light' or 'dark' - defaults to vim.o.background if unset
   background = "warm", -- options are 'warm' and 'cold'
@@ -30,6 +32,7 @@ M.default = {
 
 M.config = nil
 
+--- @param opts? thorn.Config
 M.setup = function(opts)
   M.config = vim.tbl_deep_extend("force", {}, M.default, opts or {})
 end

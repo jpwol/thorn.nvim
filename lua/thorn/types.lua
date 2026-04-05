@@ -1,0 +1,85 @@
+--- @alias thorn.Config.Theme 'light' | 'dark'
+--- @alias thorn.Config.Background 'warm' | 'cold'
+
+--- @class thorn.Config
+--- @field theme? thorn.Config.Theme
+--- @field background? thorn.Config.Background
+--- @field transparent? boolean
+--- @field terminal? boolean
+--- @field styles? thorn.Config.Styles
+--- @field on_highlights? fun(hl: table<string, vim.api.keyset.highlight>, palette: thorn.Palette)
+
+--- @class thorn.Config.Styles
+--- @field keywords thorn.StyleOpts
+--- @field comments thorn.StyleOpts
+--- @field strings thorn.StyleOpts
+--- @field diagnostic thorn.DiagnosticOpts
+
+--- @class thorn.StyleOpts
+--- @field italic boolean
+--- @field bold boolean
+
+--- @class thorn.DiagnosticOpts
+--- @field underline boolean
+--- @field error { highlight: boolean }
+--- @field hint { highlight: boolean }
+--- @field info { highlight: boolean }
+--- @field warn { highlight: boolean }
+
+--- @class thorn.Palette
+--- @field bg string
+--- @field fg string
+--- @field number string
+--- @field white string
+--- @field gray string
+--- @field green string
+--- @field green0 string
+--- @field green1 string
+--- @field yellow string
+--- @field yellow0 string
+--- @field orange string
+--- @field blue string
+--- @field blue0 string
+--- @field lightblue string
+--- @field lightgreen string
+--- @field pink string
+--- @field cyan string
+--- @field cyan0 string
+--- @field red string
+--- @field red0 string
+--- @field red1 string
+--- @field cursorline string
+--- @field separator  string
+--- @field statusbar  string
+--- @field status_sep string
+--- @field bg_float   string
+--- @field bg_visual  string
+--- @field diff thorn.Palette.Git
+--- @field git thorn.Palette.Git
+--- @field terminal thorn.Palette.Terminal
+--- @field hbg table
+--- @field hfg table
+--- @field none "NONE"
+
+--- @class thorn.Palette.Terminal
+--- @field black string
+--- @field black_bright string
+--- @field white string
+--- @field white_bright string
+--- @field red string
+--- @field red_bright string
+--- @field green string
+--- @field green_bright string
+--- @field yellow string
+--- @field yellow_bright string
+--- @field blue string
+--- @field blue_bright string
+--- @field magenta string
+--- @field magenta_bright string
+--- @field cyan string
+--- @field cyan_bright string 
+
+--- @class thorn.Palette.Git
+--- @field add string
+--- @field change string
+--- @field delete string
