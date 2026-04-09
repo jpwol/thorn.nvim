@@ -14,6 +14,7 @@ M.plugins = {
   bufferline       = true,
   snacks           = true,
   blink            = true,
+  oil              = true,
 }
 
 function M.get(name, colors, opts)
