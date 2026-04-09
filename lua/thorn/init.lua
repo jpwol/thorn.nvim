@@ -1,6 +1,6 @@
 
 local M = {}
-M.version = "2.3.0" -- x-release-please-version
+M.version = "2.4.0" -- x-release-please-version
 
 -- stylua: ignore
 --- @type thorn.Config
