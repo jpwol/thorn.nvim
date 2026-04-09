@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.0](https://github.com/jpwol/thorn.nvim/compare/v2.3.0...v2.4.0) (2026-04-09)
+
+
+### Features
+
+* added oil.nvim and oil-git.nvim support ([8be9487](https://github.com/jpwol/thorn.nvim/commit/8be9487484f9d63b2dcd9c270bf59d680435025e))
+
 ## [2.3.0](https://github.com/jpwol/thorn.nvim/compare/v2.2.1...v2.3.0) (2026-04-05)
 
 
