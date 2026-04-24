@@ -50,8 +50,7 @@
 --- @field red1 string
 --- @field cursorline string
 --- @field separator  string
---- @field statusbar  string
---- @field status_sep string
+--- @field statusbar  thorn.Palette.StatusBar
 --- @field bg_float   string
 --- @field bg_visual  string
 --- @field diff thorn.Palette.Git
@@ -78,6 +77,11 @@
 --- @field magenta_bright string
 --- @field cyan string
 --- @field cyan_bright string 
+
+--- @class thorn.Palette.StatusBar
+--- @field fg string
+--- @field bg string
+--- @field sep string
 
 --- @class thorn.Palette.Git
 --- @field add string

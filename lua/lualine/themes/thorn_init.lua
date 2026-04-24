@@ -5,25 +5,25 @@ function M.get(style)
 
   return {
     normal = {
-      a = { bg = colors.lightgreen, fg = colors.bg, gui = "bold" },
-      b = { bg = colors.status_sep, fg = colors.lightgreen },
-      c = { bg = colors.statusbar, fg = colors.gray },
+      a = { bg = colors.statusbar.fg, fg = colors.bg, gui = "bold" },
+      b = { bg = colors.statusbar.sep, fg = colors.statusbar.fg },
+      c = { bg = colors.statusbar.bg, fg = colors.gray },
     },
     insert = {
       a = { bg = colors.orange, fg = colors.bg, gui = "bold" },
-      b = { bg = colors.status_sep, fg = colors.orange },
+      b = { bg = colors.statusbar.sep, fg = colors.orange },
     },
     visual = {
       a = { bg = colors.pink, fg = colors.bg, gui = "bold" },
-      b = { bg = colors.status_sep, fg = colors.pink },
+      b = { bg = colors.statusbar.sep, fg = colors.pink },
     },
     replace = {
       a = { bg = colors.red, fg = colors.bg, gui = "bold" },
-      b = { bg = colors.status_sep, fg = colors.red },
+      b = { bg = colors.statusbar.sep, fg = colors.red },
     },
     command = {
       a = { bg = colors.red, fg = colors.bg, gui = "bold" },
-      b = { bg = colors.status_sep, fg = colors.red },
+      b = { bg = colors.statusbar.sep, fg = colors.red },
     },
     inactive = {
       a = { bg = colors.bg, fg = colors.gray },

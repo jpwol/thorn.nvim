@@ -32,8 +32,11 @@ function M.setup(opts)
       cursorline = opts.background == "warm" and "#1D3034" or "#21313B",
       separator  = "#0B1213",
 
-      statusbar  = opts.background == "warm" and "#111F22" or "#152128",
-      status_sep = opts.background == "warm" and "#203336" or "#1A2C37",
+      statusbar  = {
+        fg  = "#96C2A1",
+        bg  = opts.background == "warm" and "#111F22" or "#152128", 
+        sep = opts.background == "warm" and "#203336" or "#1A2C37",
+      },
 
       bg_float   = opts.background == "warm" and "#0F1A1C" or "#1A2328",
 
@@ -119,8 +122,11 @@ function M.setup(opts)
       cursorline = opts.background == "warm" and "#BEDBB8" or "#BDDBC9",
       separator  = "#9FB4A4",
 
-      statusbar  = opts.background == "warm" and "#C3DBBD" or "#C4DECE",
-      status_sep = opts.background == "warm" and "#AFCBA9" or "#B1D3BE",
+      statusbar  = { 
+        fg  = "#3C6746",
+        bg  = opts.background == "warm" and "#C3DBBD" or "#C4DECE",
+        sep = opts.background == "warm" and "#AFCBA9" or "#B1D3BE",
+      },
 
       bg_float   = opts.background == "warm" and "#B0CCAD" or "#B4D0BF",
 

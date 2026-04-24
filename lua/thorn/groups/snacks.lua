@@ -39,7 +39,7 @@ function M.get(c, opts)
     SnacksProfilerIconTrace   = { bg = c.lightgreen, fg = c.bg_float },
     SnacksProfilerBadgeTrace  = { bg = c.lightgreen, fg = c.bg_float },
     SnacksIndent              = { fg = c.number, nocombine = true },
-    SnacksIndentScope         = { fg = c.cyan0, nocombine = true },
+    SnacksIndentScope         = { fg = c.lightblue, nocombine = true },
     SnacksZenIcon             = { fg = c.red },
     SnacksInputIcon           = { fg = c.red },
     SnacksInputBorder         = { fg = c.yellow },
