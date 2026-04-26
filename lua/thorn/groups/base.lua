@@ -28,7 +28,7 @@ function M.get(c, opts)
     SignColumnSB                = { fg = c.green },
     Substitute                  = { bg = c.red, fg = c.bg },
     LineNr                      = { fg = c.number },
-    CursorLineNr                = { fg = c.yellow, bg = c.bg, bold = true },
+    CursorLineNr                = { bg = opts.transparent and c.none or c.bg, fg = c.yellow, bold = true },
     LineNrAbove                 = "LineNr",
     LineNrBelow                 = "LineNr",
     MatchParen                  = { fg = c.red0, bold = true },
