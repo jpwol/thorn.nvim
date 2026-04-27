@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.1](https://github.com/jpwol/thorn.nvim/compare/v2.4.0...v2.4.1) (2026-04-26)
+
+
+### Bug Fixes
+
+* cursor line nr transparent with transparent flag set ([3116f57](https://github.com/jpwol/thorn.nvim/commit/3116f572c36a00870c5a903f1232ff2573370556))
+
 ## [2.4.0](https://github.com/jpwol/thorn.nvim/compare/v2.3.0...v2.4.0) (2026-04-09)
 
 
