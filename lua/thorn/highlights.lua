@@ -8,7 +8,8 @@ M.set_highlights = function(opts)
     vim.cmd([[highlight clear]])
   end
 
-  vim.g.colors_name = "thorn-" .. vim.o.background .. "-" .. opts.background
+  local tail = vim.o.background == "light" and "field" or "forest"
+  vim.g.colors_name = "thorn-" .. tail
 
   vim.o.termguicolors = true
 
@@ -44,8 +45,8 @@ function M.terminal(colors)
   vim.g.terminal_color_5 = colors.terminal.magenta
   vim.g.terminal_color_13 = colors.terminal.magenta_bright
 
-  vim.g.terminal_color_6 = colors.terminal.cyan
-  vim.g.terminal_color_14 = colors.terminal.cyan_bright
+  vim.g.terminal_color_6 = colors.terminal.green_2
+  vim.g.terminal_color_14 = colors.terminal.green_2_bright
 end
 
 return M

@@ -5,42 +5,37 @@ function M.setup(opts)
     -- stylua: ignore
     ---@type thorn.Palette
     return {
-      bg         = opts.background == "warm" and "#152326" or "#1D282F",
-      fg         = "#DBD0C6",
+      bg         = "#172526",
+      fg         = "#DBD2C7",
 
-      number     = opts.background == "warm" and "#234847" or "#314654",
+      number     = "#1C3D3C",
 
-      white      = "#D9D3CE",
-      gray       = "#91A4AD",
-      green      = "#568270",
-      green0     = "#6FA791",
-      green1     = "#9EBB9C",
+      white      = "#DBD2C7",
+      gray       = "#A1A790",
+      green_0    = "#B8CDB6", -- lightblue
+      green_1    = "#9EBB9C", -- green1
+      green_2    = "#88B497", -- cyan
+      green_3    = "#9EC59B", -- lightgreen
+      green_4    = "#6FA791", -- green0
+      green_5    = "#568270", -- green
+      green_6    = "#87CBB1", -- cyan0
       yellow     = "#FFD7AA",
-      yellow0    = "#F7B982",
       orange     = "#F9ADA0",
-      blue       = "#86BFD0",
-      blue0      = "#A7CBEA",
-      lightblue  = "#9FCFC3",
-      lightgreen = "#96C2A1",
-      pink       = "#D9ADD4",
-      cyan       = "#79C2B6",
-      cyan0      = "#87CBB1",
+      blue       = "#91C4C0",
       red        = "#D2696C",
-      red0       = "#FA5056",
-      red1       = "#E89396",
 
-      cursorline = opts.background == "warm" and "#1D3034" or "#21313B",
+      cursorline = "#1B2C2D",
       separator  = "#0B1213",
 
       statusbar  = {
-        fg  = "#96C2A1",
-        bg  = opts.background == "warm" and "#111F22" or "#152128", 
-        sep = opts.background == "warm" and "#203336" or "#1A2C37",
+        fg  = "#9EC59B",
+        bg  = "#152223",
+        sep = "#1A2B2C",
       },
 
-      bg_float   = opts.background == "warm" and "#0F1A1C" or "#1A2328",
+      bg_float   = "#131F20",
 
-      bg_visual  = opts.background == "warm" and "#38524F" or "#223B49",
+      bg_visual  = "#233935",
 
       diff = {
         add    = "#435B55",
@@ -55,39 +50,39 @@ function M.setup(opts)
       },
 
       terminal = {
-        black          = opts.background == "warm" and "#152326" or "#1D282F",
+        black          = "#172526",
         black_bright   = "#568270",
-        white          = "#91A4AD",
-        white_bright   = "#DBD0C6",
-        red            = "#FF5B61",
-        red_bright     = "#D48588",
-        green          = "#9DC6A9",
-        green_bright   = "#95C2A1",
-        yellow         = "#FFCF99",
-        yellow_bright  = "#FDD9AF",
-        blue           = "#86BFD2",
-        blue_bright    = "#A7CBEA",
-        magenta        = "#D59CCE",
-        magenta_bright = "#D9ADD4",
-        cyan           = "#79C2B6",
+        white          = "#A1A790",
+        white_bright   = "#DBD2C7",
+        red            = "#D2696C",
+        red_bright     = "#D2696C",
+        green          = "#6FA791",
+        green_bright   = "#6FA791",
+        yellow         = "#FFD7AA",
+        yellow_bright  = "#FFD7AA",
+        blue           = "#91C4C0",
+        blue_bright    = "#91C4C0",
+        magenta        = "#F9ADA0",
+        magenta_bright = "#F9ADA0",
+        cyan           = "#87CBB1",
         cyan_bright    = "#87CBB1",
       },
 
       hbg = {
-        "#28403c",
-        "#4b4c44",
-        "#494342",
-        "#375259",
-        "#504c5a",
-        "#4e383b",
+        "#273634",
+        "#243432",
+        "#243532",
+        "#223331",
+        "#203231",
+        "#223634",
       },
       hfg = {
+        "#B8CDB6",
+        "#9EBB9C",
+        "#9EC59B",
+        "#88B497",
         "#6FA791",
-        "#FFD7AA",
-        "#F9ADA0",
-        "#86BFD0",
-        "#D9ADD4",
-        "#D2696C",
+        "#87CBB1",
       },
 
       none = "NONE",
@@ -95,42 +90,37 @@ function M.setup(opts)
   elseif opts.theme == "light" then
     -- stylua: ignore
     return {
-      bg         = opts.background == "warm" and "#CDE3C8" or "#C9E4D4",
-      fg         = "#3C6746",
+      bg         = "#F9FDCE",
+      fg         = "#3D4A2B",
 
-      number     = opts.background == "warm" and "#9ABDA0" or "#99C7AC",
+      number     = "#CCD0A1",
 
       white      = "#D9D3CE",
-      gray       = "#444E52",
-      green      = "#73A08D",
-      green0     = "#6FA791",
-      green1     = "#5E800E",
-      yellow     = "#BF7021",
-      yellow0    = "#C78500",
-      orange     = "#BF442B",
-      blue       = "#4F8FA1",
-      blue0      = "#4F6980",
-      lightblue  = "#0E747B",
-      lightgreen = "#107B6B",
-      pink       = "#913069",
-      cyan       = "#07790B",
-      cyan0      = "#00996D",
-      red        = "#971015",
-      red0       = "#FA5056",
-      red1       = "#E89396",
+      gray       = "#747A62",
+      green_0    = "#66815A", -- lightblue
+      green_1    = "#8DAE5A", -- green1
+      green_2    = "#5D922E", -- cyan
+      green_3    = "#92AC3F", -- lightgreen
+      green_4    = "#516F21", -- green0
+      green_5    = "#A3A776", -- green
+      green_6    = "#0D9039", -- cyan0
+      yellow     = "#DCA838",
+      orange     = "#CF7859",
+      blue       = "#3B9180",
+      red        = "#C5524D",
 
-      cursorline = opts.background == "warm" and "#BEDBB8" or "#BDDBC9",
+      cursorline = "#F0F5C7",
       separator  = "#9FB4A4",
 
-      statusbar  = { 
+      statusbar  = {
         fg  = "#3C6746",
-        bg  = opts.background == "warm" and "#C3DBBD" or "#C4DECE",
-        sep = opts.background == "warm" and "#AFCBA9" or "#B1D3BE",
+        bg  = "#ECF1C2",
+        sep = "#D9E6AD",
       },
 
-      bg_float   = opts.background == "warm" and "#B0CCAD" or "#B4D0BF",
+      bg_float   = "#E6EABE",
 
-      bg_visual  = opts.background == "warm" and "#B4E1B2" or "#B3E0C5",
+      bg_visual  = "#DCE6BA",
 
       diff = {
         add    = "#9CC9B0",
@@ -145,39 +135,39 @@ function M.setup(opts)
       },
 
       terminal = {
-        black          = opts.background == "warm" and "#CDE3C8" or "#C9E4D4",
+        black          = "#F8FDCE",
         black_bright   = "#73A08D",
-        white          = "#7A8386",
-        white_bright   = "#1D4E27",
-        red            = "#971015",
-        red_bright     = "#971015",
+        white          = "#747A62",
+        white_bright   = "#3D4A2B",
+        red            = "#C5524D",
+        red_bright     = "#C5524D",
         green          = "#5E800E",
         green_bright   = "#5E800E",
-        yellow         = "#BF7021",
-        yellow_bright  = "#BF7021",
-        blue           = "#4F8FA1",
-        blue_bright    = "#4F8FA1",
-        magenta        = "#913069",
-        magenta_bright = "#913069",
-        cyan           = "#07790B",
-        cyan_bright    = "#00996D",
+        yellow         = "#E3B261",
+        yellow_bright  = "#E3B261",
+        blue           = "#3B9180",
+        blue_bright    = "#3B9180",
+        magenta        = "#CF7859",
+        magenta_bright = "#CF7859",
+        cyan           = "#799A32",
+        cyan_bright    = "#799A32",
       },
 
       hbg = {
-        "#b5d0b6",
-        "#e2debb",
-        "#d9d4bd",
-        "#bad9ca",
-        "#d0d4cb",
-        "#cec8b4",
+        "#E5EDBE",
+        "#E9F1BD",
+        "#EAF1B9",
+        "#E2EDB6",
+        "#E0E8B4",
+        "#D6EDB8",
       },
       hfg = {
-        "#73A08D",
-        "#BF7021",
-        "#BF442B",
-        "#4F8FA1",
-        "#913069",
-        "#971015",
+        "#729462",
+        "#8DAE5A",
+        "#92AC3F",
+        "#5D922E",
+        "#516F21",
+        "#0D9039",
       },
 
       none = "NONE",

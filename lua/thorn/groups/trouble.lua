@@ -6,7 +6,7 @@ function M.get(c, opts)
     TroubleText   = { fg = c.red },
     TroubleCount  = { fg = c.bg_float, bg = c.bg_visual },
     TroubleNormal = { fg = c.fg, bg = c.bg },
-    TroubleDiagnosticsPos = { fg = c.green },
+    TroubleDiagnosticsPos = { fg = c.green_5 },
     TroubleNormalNC = { fg = c.fg, bg = c.bg },
   }
 end

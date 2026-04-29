@@ -6,7 +6,6 @@ M.version = "2.4.0" -- x-release-please-version
 --- @type thorn.Config
 M.default = {
   theme = vim.o.background, -- 'light' or 'dark' - defaults to vim.o.background if unset
-  background = "warm", -- options are 'warm' and 'cold'
 
   transparent = false, -- transparent background
   terminal = true, -- terminal colors
@@ -43,7 +42,8 @@ M.load = function(opts)
   local theme = opts.theme
 
   if bg ~= theme then
-    if vim.g.colors_name == "thorn-" .. opts.theme .. "-" .. opts.background then
+    local tail = opts.theme == "light" and "field" or "forest"
+    if vim.g.colors_name == "thorn-" .. tail then
       opts.theme = bg
     else
       vim.o.background = theme

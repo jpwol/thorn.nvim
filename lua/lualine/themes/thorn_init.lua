@@ -14,8 +14,8 @@ function M.get(style)
       b = { bg = colors.statusbar.sep, fg = colors.orange },
     },
     visual = {
-      a = { bg = colors.pink, fg = colors.bg, gui = "bold" },
-      b = { bg = colors.statusbar.sep, fg = colors.pink },
+      a = { bg = colors.blue, fg = colors.bg, gui = "bold" },
+      b = { bg = colors.statusbar.sep, fg = colors.blue },
     },
     replace = {
       a = { bg = colors.red, fg = colors.bg, gui = "bold" },
