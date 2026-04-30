@@ -11,7 +11,7 @@ function M.setup(opts)
       number     = "#1C3D3C",
 
       white      = "#DBD2C7",
-      gray       = "#A1A790",
+      gray       = "#9B9A8C",
       green_0    = "#B8CDB6", -- lightblue
       green_1    = "#9EBB9C", -- green1
       green_2    = "#88B497", -- cyan
@@ -20,7 +20,7 @@ function M.setup(opts)
       green_5    = "#568270", -- green
       green_6    = "#87CBB1", -- cyan0
       yellow     = "#FFD7AA",
-      orange     = "#F9ADA0",
+      orange     = "#F2A597",
       blue       = "#91C4C0",
       red        = "#D2696C",
 
@@ -52,7 +52,7 @@ function M.setup(opts)
       terminal = {
         black          = "#172526",
         black_bright   = "#568270",
-        white          = "#A1A790",
+        white          = "#9B9A8C",
         white_bright   = "#DBD2C7",
         red            = "#D2696C",
         red_bright     = "#D2696C",
