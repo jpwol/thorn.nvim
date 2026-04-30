@@ -5,8 +5,8 @@
 
 <p align="center">
     <a href="https://github.com/jpwol/thorn.nvim/stargazers"><img src="https://img.shields.io/github/stars/jpwol/thorn.nvim?style=for-the-badge&color=FFD7AA"></a>
-    <a href="https://github.com/jpwol/thorn.nvim/issues"><img src="https://img.shields.io/github/last-commit/jpwol/thorn.nvim?style=for-the-badge&color=79C2B6"></a>
-    <a href="https://github.com/jpwol/thorn.nvim/issues"><img src="https://img.shields.io/github/issues/jpwol/thorn.nvim?style=for-the-badge&color=F9ADA0"></a>
+    <a href="https://github.com/jpwol/thorn.nvim/issues"><img src="https://img.shields.io/github/last-commit/jpwol/thorn.nvim?style=for-the-badge&color=88B497"></a>
+    <a href="https://github.com/jpwol/thorn.nvim/issues"><img src="https://img.shields.io/github/issues/jpwol/thorn.nvim?style=for-the-badge&color=F2A597"></a>
 </p>
 
 <div align="center">
