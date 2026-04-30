@@ -1,7 +1,7 @@
 local M = {}
 
 function M.setup(opts)
-  if opts.theme == "dark" then
+  if opts.theme == "forest" then
     -- stylua: ignore
     ---@type thorn.Palette
     return {
@@ -87,7 +87,7 @@ function M.setup(opts)
 
       none = "NONE",
     }
-  elseif opts.theme == "light" then
+  elseif opts.theme == "field" then
     -- stylua: ignore
     return {
       bg         = "#F9FDCE",

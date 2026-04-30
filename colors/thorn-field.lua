@@ -1,3 +1,3 @@
 require("thorn").load({
-  theme = "light",
+  theme = "field",
 })

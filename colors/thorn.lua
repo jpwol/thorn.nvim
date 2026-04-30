@@ -1,3 +1,3 @@
 require("thorn").load({
-  style = nil,
+  theme = nil,
 })

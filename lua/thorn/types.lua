@@ -1,9 +1,7 @@
---- @alias thorn.Config.Theme 'light' | 'dark'
---- @alias thorn.Config.Background 'warm' | 'cold'
+--- @alias thorn.Config.Theme 'field' | 'forest'
 
 --- @class thorn.Config
 --- @field theme? thorn.Config.Theme
---- @field background? thorn.Config.Background
 --- @field transparent? boolean
 --- @field terminal? boolean
 --- @field styles? thorn.Config.Styles
