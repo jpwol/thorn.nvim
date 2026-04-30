@@ -10,7 +10,7 @@
 </p>
 
 <div align="center">
-    <img src=".github/images/thorn_themes.png" />
+    <img src=".github/images/thorn_previews.png" />
 </div>
 
 Thorn is a rich, green theme made to solve two issues with many themes:
@@ -37,20 +37,12 @@ A lot of dark themes are only dark in the sense of their backgrounds. For those 
 #### Previews
 
 <details>
-    <summary> Dark Warm </summary>
-    <img src=".github/images/thorn_dark_warm.png" />
+    <summary> Forest </summary>
+    <img src=".github/images/thorn_forest.png" />
 </details>
 <details>
-    <summary> Dark Cold </summary>
-    <img src=".github/images/thorn_dark_cold.png" />
-</details>
-<details>
-    <summary> Light Warm </summary>
-    <img src=".github/images/thorn_light_warm.png" />
-</details>
-<details>
-    <summary> Light Cold </summary>
-    <img src=".github/images/thorn_light_cold.png" />
+    <summary> Field </summary>
+    <img src=".github/images/thorn_field.png" />
 </details>
 
 ## Features
@@ -82,6 +74,12 @@ A lot of dark themes are only dark in the sense of their backgrounds. For those 
 > If you want support for a plugin, open an issue and it **WILL** be added!
 
 ## Installation
+
+[vim.pack](https://github.com/neovim/neovim) (neovim 0.12+)
+
+```lua
+vim.pack.add({ src = "https://github.com/jpwol/thorn.nvim" })
+```
 
 [lazy.nvim](https://github.com/folke/lazy.nvim)
 
@@ -140,8 +138,7 @@ return {
     lazy = false,
     priority = 1000,
     opts = {
-        theme = nil, -- 'light' or 'dark' - defaults to vim.o.background if unset
-        background = "warm", -- options are 'warm' and 'cold'
+        theme = nil, -- 'forest' or 'field' - defaults to vim.o.background if unset
 
         transparent = false, -- transparent background
         terminal = true, -- terminal colors
@@ -181,7 +178,7 @@ on_highlights = function(hl, palette)
 
 
     -- you can also use the theme's palette
-    hl.String.fg = palette.lightgreen
+    hl.String.fg = palette.green_0
 end
 ```
 
