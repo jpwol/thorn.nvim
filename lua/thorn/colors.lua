@@ -97,16 +97,16 @@ function M.setup(opts)
 
       white      = "#D9D3CE",
       gray       = "#747A62",
-      green_0    = "#66815A", -- lightblue
+      green_0    = "#798656", -- lightblue
       green_1    = "#8DAE5A", -- green1
-      green_2    = "#5D922E", -- cyan
+      green_2    = "#6E9948", -- cyan
       green_3    = "#92AC3F", -- lightgreen
       green_4    = "#516F21", -- green0
       green_5    = "#A3A776", -- green
       green_6    = "#0D9039", -- cyan0
       yellow     = "#DCA838",
       orange     = "#CF7859",
-      blue       = "#3B9180",
+      blue       = "#4C8A80",
       red        = "#C5524D",
 
       cursorline = "#F0F5C7",
