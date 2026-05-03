@@ -15,6 +15,7 @@ M.plugins = {
   snacks           = true,
   blink            = true,
   oil              = true,
+  mini             = true,
 }
 
 function M.get(name, colors, opts)
