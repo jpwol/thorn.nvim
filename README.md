@@ -69,6 +69,7 @@ A lot of dark themes are only dark in the sense of their backgrounds. For those 
   - [Kitty](https://github.com/kovidgoyal/kitty)
   - [Alacritty](https://github.com/alacritty/alacritty)
   - [Btop](https://github.com/aristocratos/btop)
+  - [Opencode](https://opencode.ai/)
 
 > [!note]
 > If you want support for a plugin, open an issue and it **WILL** be added!
@@ -212,6 +213,8 @@ For ghostty, you can use `ghostty +list-themes` to preview the themes, and set t
 For kitty, you can simply use `kitten themes` to preview and apply the theme.
 
 For btop, the theme should appear in the settings menu for selection.
+
+For opencode, copy the files from `extras/opencode` to `~/.config/opencode/themes`, then select them from `/themes`.
 
 For alacritty, you would use
 
