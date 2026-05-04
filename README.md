@@ -64,6 +64,7 @@ A lot of dark themes are only dark in the sense of their backgrounds. For those 
   - [render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim)
   - [oil.nvim](https://github.com/stevearc/oil.nvim)
   - [oil-git.nvim](https://github.com/malewicz1337/oil-git.nvim)
+  - [mini.nvim](https://github.com/nvim-mini/mini.nvim)
 - Comes with added themes for **other applications** (see [extras](https://github.com/jpwol/thorn.nvim/tree/main/extras))!
   - [Ghostty](https://github.com/ghostty-org/ghostty)
   - [Kitty](https://github.com/kovidgoyal/kitty)
