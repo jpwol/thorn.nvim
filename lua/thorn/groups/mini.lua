@@ -63,10 +63,10 @@ function M.get(c, opts)
 
     -- mini.tabline
     MiniTablineFill = "TabLineFill",
-    MiniTablineCurrent = { fg = c.green_6, bg = c.statusbar.bg, bold = true },
+    MiniTablineCurrent = { fg = c.fg, bg = c.statusbar.bg, bold = true },
     MiniTablineVisible = { fg = c.green_6, bg = c.statusbar.bg },
     MiniTablineHidden = { fg = c.green_5, bg = c.statusbar.bg },
-    MiniTablineModifiedCurrent = { bg = c.green_6, fg = c.statusbar.bg, bold = true },
+    MiniTablineModifiedCurrent = { bg = c.fg, fg = c.statusbar.bg, bold = true },
     MiniTablineModifiedVisible = { bg = c.green_6, fg = c.statusbar.bg },
     MiniTablineModifiedHidden = { bg = c.green_5, fg = c.statusbar.bg },
 
