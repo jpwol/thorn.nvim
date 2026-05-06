@@ -26,6 +26,8 @@ M.default = {
     },
   },
 
+  ---@param hl thorn.Highlights
+  ---@param palette thorn.Palette
   on_highlights = function(hl, palette) end, -- apply your own highlights
 }
 

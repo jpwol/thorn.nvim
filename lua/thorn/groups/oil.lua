@@ -1,7 +1,7 @@
 local M = {}
 
 ---@param c thorn.Palette
----@param opts thorn.StyleOpts
+---@param opts thorn.Config
 function M.get(c, opts)
   return {
     OilLink = { fg = c.green_2 },

@@ -1,5 +1,6 @@
 local M = {}
 
+---@param opts thorn.Config
 M.set_highlights = function(opts)
   local colors = require("thorn.colors").setup(opts)
   local groups = require("thorn.groups").setup(colors, opts)

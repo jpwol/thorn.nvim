@@ -18,6 +18,9 @@ M.plugins = {
   mini             = true,
 }
 
+---@param name string
+---@param colors thorn.Palette
+---@param opts thorn.Config
 function M.get(name, colors, opts)
   local mod = require("thorn.groups." .. name)
   return mod.get(colors, opts)

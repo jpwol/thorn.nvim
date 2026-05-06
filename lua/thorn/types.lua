@@ -1,5 +1,8 @@
 --- @alias thorn.Config.Theme 'field' | 'forest'
 
+---@class thorn.Highlight: vim.api.keyset.highlight
+---@alias thorn.Highlights table<string,thorn.Highlight|string>
+
 --- @class thorn.Config
 --- @field theme? thorn.Config.Theme
 --- @field transparent? boolean
