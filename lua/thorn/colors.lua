@@ -96,21 +96,21 @@ function M.setup(opts)
       number     = "#CCD0A1",
 
       white      = "#D9D3CE",
-      gray       = "#747A62",
-      green_0    = "#798656", -- lightblue
+      gray       = "#74694E",
+      green_0    = "#6C7B1E", -- lightblue
       green_1    = "#8DAE5A", -- green1
       green_2    = "#6E9948", -- cyan
       green_3    = "#92AC3F", -- lightgreen
       green_4    = "#516F21", -- green0
-      green_5    = "#A3A776", -- green
-      green_6    = "#0D9039", -- cyan0
+      green_5    = "#9A9F75", -- green
+      green_6    = "#31874D", -- cyan0
       yellow     = "#DCA838",
       orange     = "#CF7859",
       blue       = "#4C8A80",
       red        = "#C5524D",
 
       cursorline = "#EEF2BA",
-      separator  = "#9FB4A4",
+      separator  = "#767859",
 
       statusbar  = {
         fg  = "#3C6746",
@@ -136,38 +136,38 @@ function M.setup(opts)
 
       terminal = {
         black          = "#F8FDCE",
-        black_bright   = "#73A08D",
-        white          = "#747A62",
+        black_bright   = "#9A9F75",
+        white          = "#827F5E",
         white_bright   = "#3D4A2B",
         red            = "#C5524D",
         red_bright     = "#C5524D",
         green          = "#5E800E",
         green_bright   = "#5E800E",
-        yellow         = "#E3B261",
-        yellow_bright  = "#E3B261",
-        blue           = "#3B9180",
-        blue_bright    = "#3B9180",
+        yellow         = "#DCA838",
+        yellow_bright  = "#DCA838",
+        blue           = "#4C8A80",
+        blue_bright    = "#4C8A80",
         magenta        = "#CF7859",
         magenta_bright = "#CF7859",
-        cyan           = "#799A32",
-        cyan_bright    = "#799A32",
+        cyan           = "#31874D",
+        cyan_bright    = "#31874D",
       },
 
       hbg = {
-        "#E5EDBE",
         "#E9F1BD",
         "#EAF1B9",
         "#E2EDB6",
+        "#E5EDBE",
         "#E0E8B4",
         "#D6EDB8",
       },
       hfg = {
-        "#729462",
         "#8DAE5A",
         "#92AC3F",
-        "#5D922E",
+        "#6E9948",
+        "#6D7A29",
         "#516F21",
-        "#0D9039",
+        "#31874D",
       },
 
       none = "NONE",
