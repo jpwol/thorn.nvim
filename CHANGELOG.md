@@ -5,11 +5,20 @@
 
 ### ⚠ BREAKING CHANGES
 
-* bump major
+- *thorn* no longer operates on a `warm` or `cold` style. There is only `dark` and `light`. With the removal of the cold themes,
+the dark and light varients have been renamed to `forest` and `field` respectively.
+
+- `background` config option has been removed
+
+- `theme` conifg option now accepts `"forest"` or `"field"`
 
 ### Features
 
-* bump major ([daf0a31](https://github.com/jpwol/thorn.nvim/commit/daf0a31a08348f3afa5b5702b66f1f11a3e25ae1))
+* new palette, focusing mainly on green colors
+* added opencode themes (#26) (thanks [metalelf0](https://github.com/metalelf0))
+* added mini.nvim support (#27) (thanks [pkazmier](https://github.com/pkazmier))
+* added tmux theme
+* added noctalia-shell theme
 
 ## [2.4.1](https://github.com/jpwol/thorn.nvim/compare/v2.4.0...v2.4.1) (2026-04-26)
 
