@@ -1,6 +1,6 @@
 # Changelog
 
-## [4.0.0](https://github.com/jpwol/thorn.nvim/compare/v3.0.0...v4.0.0) (2026-05-06)
+## [3.0.0](https://github.com/jpwol/thorn.nvim/compare/v3.0.0...v3.0.0) (2026-05-06)
 
 
 ### ⚠ BREAKING CHANGES
