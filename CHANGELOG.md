@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/jpwol/thorn.nvim/compare/v2.4.1...v3.0.0) (2026-05-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* bump major
+
+### Features
+
+* bump major ([daf0a31](https://github.com/jpwol/thorn.nvim/commit/daf0a31a08348f3afa5b5702b66f1f11a3e25ae1))
+
 ## [2.4.1](https://github.com/jpwol/thorn.nvim/compare/v2.4.0...v2.4.1) (2026-04-26)
 
 
