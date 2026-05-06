@@ -19,7 +19,7 @@ function M.get(c, opts)
     ["@comment.todo"]               = { fg = c.blue, italic = opts.styles.comments.italic },
     ["@comment.warning"]            = { fg = c.yellow, italic = opts.styles.comments.italic },
     ["@constant"]                   = "Constant",
-    ["@constant.builtin"]           = "Constant",
+    ["@constant.builtin"]           = { fg = c.yellow, bold = true },
     ["@constant.macro"]             = "Constant",
     ["@constructor"]                = { fg = c.green_2 },
     ["@constructor.tsx"]            = "@constructor",

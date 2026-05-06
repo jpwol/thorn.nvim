@@ -97,7 +97,7 @@ function M.setup(opts)
 
       white      = "#D9D3CE",
       gray       = "#74694E",
-      green_0    = "#6C7B1E", -- lightblue
+      green_0    = "#718C5F", -- lightblue
       green_1    = "#8DAE5A", -- green1
       green_2    = "#6E9948", -- cyan
       green_3    = "#92AC3F", -- lightgreen

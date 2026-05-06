@@ -18,7 +18,7 @@ function M.get(c, opts)
     ["@lsp.type.interface"]                    = { },
     ["@lsp.type.keyword"]                      = "@keyword",
     ["@lsp.type.lifetime"]                     = "@keyword.storage",
-    ["@lsp.type.macro"]                        = {fg = c.green_1, bold = true},
+    ["@lsp.type.macro"]                        = { fg = c.green_1 },
     ["@lsp.type.namespace"]                    = "@module",
     ["@lsp.type.namespace.python"]             = "@variable",
     ["@lsp.type.number"]                       = "@number",
