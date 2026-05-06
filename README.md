@@ -48,7 +48,7 @@ A lot of dark themes are only dark in the sense of their backgrounds. For those 
 ## Features
 
 - Written in 100% Lua
-- **Dark** and **Light** themes available, each with a _warm_ and _cold_ background
+- **Dark** and **Light** themes available
   - See [Configuration](#configuration) for details
 - Plugin support
   - [lazy.nvim](https://github.com/folke/lazy.nvim)
@@ -193,7 +193,7 @@ If installing _thorn_ with a neovim package manager, locate the install location
 
 Otherwise, clone this repository with `git clone https://github.com/jpwol/thorn.nvim`.
 
-Usually, applications (e.g., Ghostty/Kitty/Alacritty/Btop) relies on a `themes` folder within the `~/.config/<application>` directory. If you haven't created that folder within the relevant directory, please do so. Then simply copy the theme files into the target application's theme directory.
+Usually, applications (e.g., Ghostty/Kitty/Alacritty/Btop) rely on a `themes` folder within the `~/.config/<application>` directory. If you haven't created that folder within the relevant directory, please do so. Then simply copy the theme files into the target application's theme directory.
 
 ```bash
 # assuming you're in the thorn.nvim directory
@@ -230,7 +230,12 @@ For **tmux**, add this to your `tmux.conf` (this assumes you're using `~/.config
 
 ```tmux
 set -g @thorn-tmux "forest" # can be 'forest' or 'field', default is 'forest'
-run-shell "/path/to/thorn/tmux/install/thorn.tmux"
+run-shell "/path/to/thorn.tmux"
 ```
 
-The path to _thorn's_ tmux theme can be anywhere, but it would preferrably be in `~/.config/tmux/` or `~/.config/tmux/plugins`.
+Keep in mind that `thorn-forest.conf`, `thorn-field.conf`, and `thorn.tmux` should all be in the same directory.
+
+The path to _thorn's_ tmux theme can be anywhere, but it would preferrably be copied or symlinked to `~/.config/tmux/` or `~/.config/tmux/plugins`.
+
+For **noctalia-shell**, copy or symlink the `Thorn/` folder containing `Thorn.json` into `~/.config/noctalia/colorschemes/`. _Thorn_ will then be available in _noctalia's_
+colorscheme choices.
