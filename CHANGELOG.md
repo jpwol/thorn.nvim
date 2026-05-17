@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/jpwol/thorn.nvim/compare/v3.0.0...v3.1.0) (2026-05-17)
+
+
+### Features
+
+* add bat/delta/fzf/lazygit extras ([#33](https://github.com/jpwol/thorn.nvim/issues/33)) ([14b54c9](https://github.com/jpwol/thorn.nvim/commit/14b54c9d296883e94594556b72dc88f20739fbea))
+
 ## [3.0.0](https://github.com/jpwol/thorn.nvim/compare/v3.0.0...v3.0.0) (2026-05-06)
 
 
