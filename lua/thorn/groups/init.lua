@@ -40,9 +40,6 @@ function M.setup(colors, opts)
     end
   end
 
-  local names = vim.tbl_keys(groups)
-  table.sort(names)
-
   local ret = {}
   for group in pairs(groups) do
     for k, v in pairs(M.get(group, colors, opts)) do
