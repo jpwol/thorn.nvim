@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.1](https://github.com/jpwol/thorn.nvim/compare/v3.1.0...v3.1.1) (2026-08-27)
+
+
+### Bug Fixes
+
+* **treesitter:** changed fg to blue for bold and italics for [@markup](https://github.com/markup) text ([46947ed](https://github.com/jpwol/thorn.nvim/commit/46947ede39035090fc0e73d3c77dcb33501a719b))
+
 ## [3.1.0](https://github.com/jpwol/thorn.nvim/compare/v3.0.0...v3.1.0) (2026-05-17)
 
 
