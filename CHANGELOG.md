@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.1.2](https://github.com/jpwol/thorn.nvim/compare/v3.1.1...v3.1.2) (2026-11-18)
+
+
+### Bug Fixes
+
+* **btop:** added missing highlights ([77b7d26](https://github.com/jpwol/thorn.nvim/commit/77b7d26c3e54a76a5f1b8541a70fd3e601e7d42a))
+* **noctalia:** tweaked colors to better align with neovim theme ([76026bd](https://github.com/jpwol/thorn.nvim/commit/76026bdb119305a06949fa4c22493686572b52f0))
+
 ## [3.1.1](https://github.com/jpwol/thorn.nvim/compare/v3.1.0...v3.1.1) (2026-08-27)
 
 
