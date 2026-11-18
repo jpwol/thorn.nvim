@@ -32,7 +32,7 @@ A lot of dark themes are only dark in the sense of their backgrounds. For those 
 - [Usage](#usage)
 - [Configuration](#configuration)
 
----
+______________________________________________________________________
 
 #### Previews
 
@@ -241,8 +241,8 @@ Keep in mind that `thorn-forest.conf`, `thorn-field.conf`, and `thorn.tmux` shou
 
 The path to _thorn's_ tmux theme can be anywhere, but it would preferrably be copied or symlinked to `~/.config/tmux/` or `~/.config/tmux/plugins`.
 
-For **noctalia-shell**, copy or symlink the `Thorn/` folder containing `Thorn.json` into `~/.config/noctalia/colorschemes/`. _Thorn_ will then be available in _noctalia's_
-colorscheme choices.
+For **noctalia** (formerly noctalia-shell), copy or symlink the `Thorn.json` file into `~/.config/noctalia/palettes/`. _Thorn_ will then be available in _noctalia's_
+colorscheme choices when using **custom**.
 
 For **lazygit**, the files in `extras/lazygit` are YAML snippets — merge the contents of `thorn-forest.yml` (or `thorn-field.yml`) into your `~/.config/lazygit/config.yml` under the existing `gui:` section. If you don't have a `config.yml`, you can copy the file directly.
 
