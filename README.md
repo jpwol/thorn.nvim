@@ -10,7 +10,7 @@
 </p>
 
 <div align="center">
-    <img src=".github/images/thorn_previews.png" />
+    <img src="https://github.com/jpwol/thorn.nvim/blob/main/.github/images/thorn_previews.png" />
 </div>
 
 Thorn is a rich, green theme made to solve two issues with many themes:
@@ -38,11 +38,11 @@ ______________________________________________________________________
 
 <details>
     <summary> Forest </summary>
-    <img src=".github/images/thorn_forest.png" />
+    <img src="https://github.com/jpwol/thorn.nvim/blob/main/.github/images/thorn_forest.png" />
 </details>
 <details>
     <summary> Field </summary>
-    <img src=".github/images/thorn_field.png" />
+    <img src="https://github.com/jpwol/thorn.nvim/blob/main/.github/images/thorn_field.png" />
 </details>
 
 ## Features
