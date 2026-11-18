@@ -72,6 +72,7 @@ ______________________________________________________________________
   - [Btop](https://github.com/aristocratos/btop)
   - [Opencode](https://opencode.ai/)
   - [tmux](https://github.com/tmux/tmux)
+  - [noctalia](https://github.com/noctalia-dev/noctalia)
   - [lazygit](https://github.com/jesseduffield/lazygit)
   - [bat](https://github.com/sharkdp/bat)
   - [fzf](https://github.com/junegunn/fzf)
