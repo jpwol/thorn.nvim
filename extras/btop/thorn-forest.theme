@@ -79,3 +79,13 @@ theme[download_end]="#B8CDB6"
 theme[upload_start]="#568270"
 theme[upload_mid]="#9EC59B"
 theme[upload_end]="#B8CDB6"
+
+# Process list banner attributes
+theme[proc_pause_bg]="#568270"
+theme[proc_follow_bg]="#9EC59B"
+theme[proc_banner_bg]="#9EC59B"
+theme[proc_banner_fg]="#1B2C2D"
+
+# Process following attributes
+theme[followed_bg]="#9EC59B"
+theme[followed_fg]="#1B2C2D"
